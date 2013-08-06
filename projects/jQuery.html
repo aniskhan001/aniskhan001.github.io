@@ -12,20 +12,23 @@
 <body>
 	<h1>My Day and Night Site</h1>
 	
-	<button data-file="day">Day</button>
-	<button data-file="night">Night</button>
-
+	<div class="buttons">
+		<button data-file="day">Day</button>
+		<button data-file="night">Night</button>
+	</div>
 	<p class="description"></p>
-	<img class="kiss" src="kiss.png" alt="KISS">
 
+	<button class="chumma">Get a chumma for free!</button>
+	<img class="kiss" src="kiss.png" alt="KISS">
+	
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
 <script>
 	(function(){
-		var link = $('link');
-		$('button').on('click', function(){
+		var link = $('link'),
+			kiss = $('.kiss');
+		$('.buttons').children().on('click', function(){
 			var $this = $(this),
-				stylesheet = $this.data('file'),
-				kiss = $('.kiss');
+				stylesheet = $this.data('file');
 			
 			link.attr('href', stylesheet +'.css');
 			$this
@@ -33,8 +36,11 @@
 					.removeAttr('disabled')
 					.end()
 					.attr('disabled', 'disabled');
-			kiss.css('display', 'block');
 			$('.description').text('You are now watching the '+ stylesheet + ' theme');
+		});
+		
+		$('.chumma').on('click', function() {
+			kiss.css('display', 'block');
 			kiss.delay(1500).fadeOut();
 		});
 	})();
