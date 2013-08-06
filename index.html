@@ -5,3 +5,10 @@
 <p><b>Tip:</b> A common mistake is cloning using the default (HTTPS) instead of SSH. You can correct this by going to your repository, clicking the ssh button left to the URL field and updating the URL of your origin remote like this:</p>
 
 <code>git remote set-url origin git@github.com:username/repo.git</code>
+
+<p><b>Tip:</b> We can use ssh-agent to remember your passphrase</p>
+
+<code>$ ssh-agent bash <br>
+$ ssh-add <br>
+Enter passphrase for /home/elyobo/.ssh/id_rsa: <br>
+Identity added: /home/elyobo/.ssh/id_rsa (/home/elyobo/.ssh/id_rsa)</code>
