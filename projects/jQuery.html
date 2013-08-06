@@ -6,8 +6,11 @@
 </head>
 <body>
 	<h1>My Day and Night Site</h1>
+	
 	<button data-file="day">Day</button>
 	<button data-file="night">Night</button>
+	
+	<p class="description"></p>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
 <script>
@@ -23,7 +26,7 @@
 					.removeAttr('disabled')
 					.end()
 					.attr('disabled', 'disabled');
-
+			$('.description').text('You are now watching the '+ stylesheet + ' theme');
 		});
 	})();
 </script>
