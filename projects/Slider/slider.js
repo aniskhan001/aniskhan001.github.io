@@ -5,7 +5,7 @@
 		imgsLen = imgs.length, // 4
 		current = 1,
 		totalImgsWidth = imgsLen * imgWidth; // 2400
-
+	
 	// hover effect for the buttons
 	$('button').hover(
 		function(){
