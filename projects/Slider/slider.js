@@ -6,10 +6,10 @@
 		current = 1,
 		totalImgsWidth = imgsLen * imgWidth; // 2400
 
+	// hover effect for the buttons
 	$('button').hover(
 		function(){
 			$(this).addClass('hover');
-			console.log(this);
 		},
 		function(){
 			$(this).removeClass('hover');
@@ -20,8 +20,6 @@
 	$('#slider-nav').show().find('button').on('click', function(){
 		var direction = $(this).data('dir'),
 			loc = imgWidth;
-
-		// adding class for clicked type
 
 
 		//update current value
