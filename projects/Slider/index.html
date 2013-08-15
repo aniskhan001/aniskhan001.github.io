@@ -1,0 +1,39 @@
+<html>
+<head>
+	<title>Slider</title>
+	<link rel="stylesheet" href="style.css">
+	<style>
+	body{
+		width: 600px;
+		margin: 100px auto 0;
+	}
+	*{
+		margin: 0;
+		padding: 0;
+	}
+	</style>
+</head>
+<body>
+<div class="container">
+	<h1>My first slider</h1>
+	<div class="slider">
+		<ul>
+			<li><img src="img/1.jpg" alt="image"></li>
+			<li><img src="img/2.jpg" alt="image"></li>
+			<li><img src="img/3.jpg" alt="image"></li>
+			<li><img src="img/4.jpg" alt="image"></li>
+			<li><img src="img/5.jpg" alt="image"></li>
+			<li><img src="img/6.jpg" alt="image"></li>
+		</ul>
+	</div>
+
+	<div id="slider-nav">
+		<button data-dir="prev">Previous</button>
+		<button data-dir="next">Next</button>
+	</div>
+</div>
+
+<script src="jquery-1.9.0.min.js"></script>
+<script src="slider.js"></script>
+</body>
+</html>
