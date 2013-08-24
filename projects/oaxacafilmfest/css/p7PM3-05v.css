@@ -1,0 +1,466 @@
+/* 
+  -----------------------------------
+  Pop Menu Magic 3
+  by Project Seven Development
+  www.projectseven.com
+  Style Theme: 05VVV - Classique
+  -----------------------------------
+*/
+
+/*Preparation for Affinity Boardroom and Metroplex. Uncomment these rules to prepare your Affinity Garnet page for use with PMM3
+#logo + div.p7PM3-05, #masthead div.p7PM3-05 {
+	border-bottom: none !important;
+}
+.p7-animate {
+	-webkit-animation-fill-mode: backwards !important;
+	animation-fill-mode: backwards !important;
+}
+*/
+/*END: Affinity Boardroom and Metroplex Prep */
+
+.p7PM3-05 {
+line-height: 1;
+font-family: Impact, sans-serif;
+font-stretch: normal;
+font-size: 24px;
+background: #000;
+border-bottom: 0px solid #000;
+-webkit-transform-style: preserve-3d;
+}
+.p7PM3-05.horiz {
+	padding: 0px 8px;
+}
+.p7PM3-05.horiz.open_up {
+	border-top: 1px solid #000;
+	border-bottom: none;
+}
+.pmm3-toolbar {
+	display: none;
+}
+.p7PM3-05.rounded {
+	border-radius: 0px 0px 0px 0px;
+}
+.p7PM3-05.shadows {
+	border-bottom-color: #FFF;
+	box-shadow: 0px 0px 60px rgba(0,0,0,.3);
+}
+.p7PM3-05 a img {
+	border: none;
+	vertical-align: bottom;
+}
+
+.p7PM3-05.menu-centered {
+	text-align: center;
+}
+.p7PM3-05.menu-right {
+	text-align: right;
+}
+
+.p7PM3-05:after {
+	content: "\0020";
+	clear: both;
+	font-size: 0px;
+	line-height: 0;
+	display: inline;
+	height: 0px;
+}
+
+.p7PM3-05 ul {
+	margin: 0px;
+	padding: 0px;
+	display: inline-block;
+	vertical-align: bottom;
+}
+.p7PM3-05 ul li {
+	list-style-type: none;
+	float: left;
+	position: relative;
+}
+
+.p7PM3-05 ul li a {
+	display: block;
+	padding: 11px 0px 11px 11px;
+	color: #FCE30E;
+	text-decoration: none;
+	font-size: 1em;
+	background-repeat: no-repeat !important;
+	background-position: left center !important;
+}
+
+.p7PM3-05 a.trig_closed {
+	background-image: none;
+}
+.p7PM3-05 ul ul a.trig_closed {
+	background-image: none;
+}
+
+.p7PM3-05 a.trig_open {
+	background-image: none;
+	color: #FFF;
+}
+
+.p7PM3-05 ul ul a.trig_open {
+	background-image: none;
+}
+
+.p7PM3-05 ul ul li a:hover, .p7PM3-05 ul ul li a.trig_open {
+	background-color: #333;
+	color: #DDD;
+}
+
+.p7PM3-05 ul li a.pm3-link, .p7PM3-05 ul li a.pm3-link:hover {
+	background-image: none;
+}
+.p7PM3-05 ul li a.pm3-link:hover {
+	color: #FFF;
+}
+
+.p7PM3-05 ul ul {
+    background-color: #000;
+	display: block;
+	text-align: left;
+	width: 200px;
+}
+.p7PM3-05.transparent ul ul {
+	background: rgba(252,227,14,.99);
+}
+
+.p7PM3-05.shadows ul ul {
+	box-shadow: 10px 10px 30px rgba(0,0,0,.5);
+}
+.p7PM3-05 ul ul div {
+	z-index: 10;
+}
+.p7PM3-05.auto-subs ul ul {
+	width: auto;
+}
+.p7PM3-05.auto-subs ul ul li a {
+	white-space: nowrap;
+}
+.p7PM3-05 ul ul li {
+	position: relative;
+	float: none;
+	margin: 0px;
+	padding: 0px;
+}
+.p7PM3-05 ul ul li a {
+	border: none;
+	border-bottom: 0px solid rgba(0,0,0,.3);
+	color: #000;
+	font-size: .9em;
+	padding: 9px 22px 9px 0px;
+	text-align:left;
+}
+.p7PM3-05 ul ul li a.pm3-link:hover {
+	background-color: #FCE30E;
+	color: #FFF;
+}
+
+.p7PM3-05 ul ul li:last-child a {
+	border-bottom: none;
+}
+
+/*ROUNDED CORNERS OPTION - Sub-Center Bias*/
+.p7PM3-05.rounded ul ul {
+	border-radius: 0px 0px 5px 5px;
+}
+.p7PM3-05.rounded ul ul ul {
+	border-radius: 5px;
+}
+
+.p7PM3-05.rounded ul a.root_trig,
+.p7PM3-05.rounded ul a.root_link {
+	border-radius: 5px;
+}
+
+.p7PM3-05.rounded ul ul ul a.pm3first,
+.p7PM3-05.rounded ul ul ul .pm3first.pmm3-title-bar {
+	border-radius: 5px 5px 0px 0px;
+}
+.p7PM3-05.rounded ul ul a.pm3last,
+.p7PM3-05.rounded ul ul .pm3last.pmm3-title-bar {
+	border-radius: 0px 0px 5px 5px;
+}
+.p7PM3-05.rounded ul ul a.pm3first.pm3last {
+	border-radius: 5px;
+}
+.p7PM3-05.rounded ul a.root_trig.trig_up {
+	border-radius: 5px 5px 5px 5px;
+}
+.p7PM3-05.rounded li.trig_up div {
+	padding-bottom: 10px;
+}
+.p7PM3-05.rounded .trig_up a.pm3first {
+	border-radius: 5px 5px 5px 5px !important;
+}
+.p7PM3-05.rounded ul li.trig_up ul {
+	border-radius: 5px 5px 5px 5px;
+}
+.p7PM3-05.rounded .trig_up .pm3first.pmm3-title-bar {
+	border-radius: 5px 5px 0px 0px !important;
+}
+.p7PM3-05.rounded .trig_up .pm3last.pmm3-title-bar {
+	border-radius: 0px 0px 5px 5px !important;
+}
+.p7PM3-05.vert.rounded {
+	border-radius: 5px;
+}
+.p7PM3-05.vert.rounded a.root_trig {
+	border-radius: 5px 5px 5px 5px;
+}
+.p7PM3-05.vert.rounded ul ul {
+	border-radius: 5px;
+}
+.p7PM3-05.vert.rounded ul ul a.pm3first,
+.p7PM3-05.vert.rounded ul ul .pm3first.pmm3-title-bar {
+	border-radius: 5px 5px 0px 0px;
+}
+
+
+/*DISPLAY AS TITLE ONLY*/
+.p7PM3-05 .pmm3-title-bar {
+	padding: 12px 18px;
+	color: #DDD;
+	background-color: #666;
+}
+.p7PM3-05.auto-subs ul ul .pmm3-title-bar {
+	white-space: nowrap;
+}
+
+/*IMAGE LINKS*/
+.p7PM3-05 .p7PM3_img {
+	border: none;
+	padding: 0px;
+	text-align: center;
+	background: none !important;
+}
+.p7PM3-05 .p7PM3_img img {
+	border: none;
+	width: auto !important;
+	height: auto !important;
+	max-width: 100%;
+	vertical-align: bottom;
+}
+/*VERTICAL MODE */
+.p7PM3-05.vert {
+	background: #000;
+	border: none;
+}
+.p7PM3-05.vert.shadows {
+	box-shadow: 0px 0px 20px rgba(0,0,0,.5);
+}
+.p7PM3-05.vert ul {
+	display: block;
+}
+.p7PM3-05.vert ul li {
+	float: none;
+	padding: 0px;
+	position: relative;
+}
+.p7PM3-05.vert ul ul li {
+	padding: 0px;
+	margin: 0px;
+}
+
+/*CURRENT MARK */
+.p7PM3-05 ul li a.current_mark {
+	text-shadow: -.5px 0px 0px #000;
+}
+.p7PM3-05 ul ul li a.current_mark {
+	color: #FFF;
+	font-weight: bold;
+	text-shadow: none;
+}
+.p7PM3-05.vert ul li a.current_mark {
+	font-weight: bold;
+	text-shadow: none;
+}
+
+/*NO-SCRIPT RULES: The following rules enable your menu to work even when javascript is disabled in the browser*/
+.p7PM3-05.p7PM3noscript {
+	position: relative;
+}
+.p7PM3-05.p7PM3noscript ul ul {
+	position: absolute;
+	display: none;
+	top: 100%;
+}
+.p7PM3-05.p7PM3noscript ul ul ul {
+	display: none;
+	top: 0px;
+	left: 100%;
+}
+.p7PM3-05.vert.p7PM3noscript ul ul {
+	top: 0px;
+	left: 100%;
+}
+.p7PM3-05.p7PM3noscript li:hover ul {
+	display: block;
+}
+.p7PM3-05.p7PM3noscript li:hover ul ul, .p7PM3-05.p7PM3noscript li:hover ul ul ul, .p7PM3-05.p7PM3noscript li:hover ul ul ul ul, .p7PM3-05.p7PM3noscript li:hover ul ul ul ul ul, .p7PM3-05.p7PM3noscript li:hover ul ul ul ul ul ul {
+	display: none;
+}
+.p7PM3-05.p7PM3noscript li li:hover ul, .p7PM3-05.p7PM3noscript li li li:hover ul, .p7PM3-05.p7PM3noscript li li li li:hover ul, .p7PM3-05.p7PM3noscript li li li li li:hover ul, .p7PM3-05.p7PM3noscript li li li li li li:hover ul {
+	display: block;
+}
+
+/*BREADCRUMBS*/
+.p7PM3-05_crumbs.centered {
+	text-align: center;
+}
+.p7PM3-05_crumbs.right {
+	text-align: right;
+}
+.p7PM3-05_crumbs ul {
+	margin: 0px;
+	padding: 0px;
+	overflow: hidden;
+	font-size: 1em;
+	display: inline-block;
+}
+.p7PM3-05_crumbs li {
+	list-style-type: none;
+	display: block;
+	float: left;
+	margin-right: .25em;
+}
+.p7PM3-05_crumbs a {
+	text-decoration: none;
+	color: #000;
+}
+.p7PM3-05_crumbs a:hover {
+	text-decoration: underline;
+}
+.p7PM3-05_crumbs li:last-child {
+	margin-right: 0px;
+	font-weight: bold;
+}
+.p7PM3-05_crumbs.thick-arrow li:after {
+    content: "\0020 \0020 \27A7";
+}
+.p7PM3-05_crumbs.thin-arrow li:after {
+    content: "\0020 \0020 \279F";
+}
+.p7PM3-05_crumbs.open-arrow li:after {
+    content: "\0020 \0020 \21E8";
+}
+.p7PM3-05_crumbs.triangle-dots li:after {
+    content: "\0020 \0020 \2234";
+}
+.p7PM3-05_crumbs.double-colon li:after {
+   content: "\0020 \0020 \2237";
+}
+.p7PM3-05_crumbs.pipe li:after {
+   content: "\0020 \0020 |";
+}
+.p7PM3-05_crumbs.dash li:after {
+   content: "\0020 \0020 -";
+}
+.p7PM3-05_crumbs li:last-child:after {
+	content: "\0020";
+}
+
+/*END BREADCRUMB RULES*/
+
+ @media only screen and (min-width: 0px) and (max-width: 980px) {
+.p7PM3-05.responsive:after {
+	display: none;
+}
+.p7PM3-05.responsive .pmm3-toolbar {
+	display: block;
+	background-color: #222;
+	padding: 10px;
+	text-align: right;
+}
+.p7PM3-05.responsive .pmm3-toolbar a {
+	font-size: 2em;
+	font-weight: bold;
+	color: #999;
+	text-decoration: none;
+}
+.p7PM3-05.responsive .pmm3-toolbar a:hover {
+	color: #FFF;
+}
+.p7PM3-05.responsive .toggle-text.closed a:before {
+	content: "Show Menu \0020";
+	font-size: .5em;
+}
+.p7PM3-05.responsive .toggle-text.opened a:before {
+	content: "Hide Menu \0020";
+	font-size: .5em;
+}
+.p7PM3-05.responsive .pmm3-toolbar {
+	display: block;
+	background-color: #222;
+	padding: 10px;
+	cursor: pointer;
+}
+.p7PM3-05.responsive {
+	text-align: left !important;
+	padding: 0px !important;
+	border: none !important;
+}
+.p7PM3-05.responsive.vert ul {
+	margin-top: 0px;
+}
+.p7PM3-05.responsive ul {
+	display: block;
+	padding: 0px;
+}
+.p7PM3-05.responsive ul li {
+	float: none;
+	margin-right: 0px;
+}
+.p7PM3-05.responsive ul ul li {
+	padding: 0px;
+}
+
+.p7PM3-05.responsive a:hover {
+	background-color: #222;
+	color: #DDD;
+}
+.p7PM3-05.responsive ul ul {
+	position: static !important;
+	width: auto;
+	padding: 0px;
+}
+.p7PM3-05.responsive ul ul li {
+	padding: 0px;
+}
+.p7PM3-05.responsive .pmm3-title-bar {
+	padding: 12px 18px;
+}
+.p7PM3-05.responsive ul ul a,
+.p7PM3-05.responsive ul ul .pmm3-title-bar {
+	padding-left: 24px;
+}
+.p7PM3-05.responsive ul ul ul a,
+.p7PM3-05.responsive ul ul ul .pmm3-title-bar {
+	padding-left: 32px;
+}
+.p7PM3-05.responsive ul.closed {
+	display: none;
+}
+.p7PM3-05.responsive ul.opened {
+	display: block;
+}
+.p7PM3-05.responsive.rounded,
+.p7PM3-05.responsive.rounded * {
+	border-radius: 0px !important;
+}
+.p7PM3-05.responsive.shadows * {
+	box-shadow: none !important;
+}
+.p7PM3-05_crumbs {
+	display: none;
+}
+.p7PM3-05_crumbs.show-mobile {
+	display: block;
+}
+/*Workaround for very old Android devices*/
+.p7PM3-05 div {
+	left: 0px !important;
+	top: 0px !important;
+}
+/*End old Android workaround*/
+}
