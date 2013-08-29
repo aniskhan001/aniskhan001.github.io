@@ -1,3 +1,12 @@
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) {
+	#left{
+		padding-top: 165px;
+	}
+	html{
+		margin-top: 100px;
+	}
+}
+
 body{
 	background: #FCE30E;
 	color: #000000;
@@ -29,7 +38,7 @@ body{
 
 .mobile-logo{
 	margin-left: -45px;
-	margin-top: -62px;
+	margin-top: -92px;
 }
 
 .mobile-logo img{
@@ -39,7 +48,7 @@ body{
 }
 
 /***** Menu *****/
-@media only screen and (min-width: 981px){
+@media screen and (min-width: 981px){
 	.site-menu{
 		background: #000000;
 		padding-bottom: 25px;
@@ -48,18 +57,9 @@ body{
 
 	.site-menu li{
 		text-align: right;
-		margin-right: 1px;
 	}
 }
-/*ul.site-menu a{
-	color: #FCE30E;
-}
 
-ul.site-menu a:hover{
-	background: #000000;
-	color: #FFFFFF;
-}
-*/
 ul.mobile-menu{
 	margin-top: 0;
 }
@@ -90,14 +90,18 @@ ul.mobile-menu a{
 }
 
 .official-selection{
-	margin-bottom: 100px;
 	margin-top: 20px;
+}
+
+.embedded-video{
+	margin-top: 250px;
 }
 
 /*Social*/
 .social-box{
 	max-width: 300px;
-	margin: -70px auto 0;
+	margin: 0 30% 0;
+	padding-top: 10px;
 }
 
 ul.social{
@@ -108,64 +112,18 @@ ul.social li{
 	list-style-type: none;
 	float: left;
 }
-/*footer stuffs*/
-/*footer{
-	background: #000000;
-	width: 100%;
-}
 
-.footer-logos{
-	max-width: 800px;
-	margin: 20px auto;
-	padding-top: 30px;
-}
-
-.footer-logos ul{
-	list-style-type: none;
-	margin: 0;
-	padding: 0;
-	overflow: hidden;
-}
-.footer-logos ul li{
-	float: left;
-}
-
-footer p{
-	text-align: center;
-	color: #999999;
-}
-
-footer p a{
-	color: #EEEEEE;
-	outline: none;
-}
-
-.imdb{
-	width: 200px;
-	margin: 20px auto 0;
-}
-
-.imdb img{
-	display: block;
-	margin: auto;
-}
-
-.footer-text{
-	margin-top: 30px;
-}*/
-
-/*dang*/
+/*Footer*/
 #footer {
 	background: #000;
 	color: #fff;
-	padding: 20px 0;
 	min-height: 200px;
 }
 
 #footer .container {
 	max-width: 100%;
 	width: 960px;
-	margin: 20px auto;
+	margin: 0 auto;
 }
 
 .footer-logo {
@@ -216,5 +174,21 @@ footer p a{
 	margin: 20px auto;
 }
 
-.image-box {
+
+/*iPad, iPhone and Android fixes*/
+
+@media screen and (min-device-width: 768px) and (max-device-width: 963px) and (orientation: portrait){
+	body{
+		margin-top: -100px;
+	}
+	.site-menu{
+		padding-top: 165px;
+	}
 }
+
+@media screen and (min-device-width: 768px) and (max-device-width: 963px) and (orientation: landscape){
+	body{
+		margin-top: -100px;
+	}
+}
+

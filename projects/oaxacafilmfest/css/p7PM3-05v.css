@@ -391,7 +391,7 @@ border-bottom: 0px solid #000;
 }
 .p7PM3-05.responsive .pmm3-toolbar {
 	display: block;
-	background-color: #222;
+	background-color: #000000;
 	padding: 10px;
 	cursor: pointer;
 }
@@ -416,7 +416,7 @@ border-bottom: 0px solid #000;
 }
 
 .p7PM3-05.responsive a:hover {
-	background-color: #222;
+	background-color: #000000;
 	color: #DDD;
 }
 .p7PM3-05.responsive ul ul {
