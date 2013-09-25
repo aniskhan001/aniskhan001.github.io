@@ -22,29 +22,7 @@
 	<img class="kiss" src="kiss.png" alt="KISS">
 	
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
-<script>
-	(function(){
-		var link = $('link'),
-			kiss = $('.kiss');
-		$('.buttons').children().on('click', function(){
-			var $this = $(this),
-				stylesheet = $this.data('file');
-			
-			link.attr('href', stylesheet +'.css');
-			$this
-				.siblings('button')
-					.removeAttr('disabled')
-					.end()
-					.attr('disabled', 'disabled');
-			$('.description').text('You are now watching the '+ stylesheet + ' theme');
-		});
-
-		$('.chumma').on('click', function() {
-			kiss.css('display', 'block');
-			kiss.delay(999).fadeOut();
-		});
-	})();
-</script>
+<script src="script.js"></script>
 
 </body>
 </html>
