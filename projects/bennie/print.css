@@ -501,10 +501,6 @@ select {
 .hide-for-large-down {
   display: none !important; }*/
 
-.hide-for-small{
-  display: block !important;
-}
-
 /* Specific visilbity for tables */
 table.show-for-small, table.show-for-medium-down, table.show-for-large-down, table.hide-for-medium, table.hide-for-medium-up, table.hide-for-large, table.hide-for-large-up, table.hide-for-xlarge {
   display: table; }
@@ -4688,4 +4684,10 @@ a.th {
 /* New Addition by BHW */
 	a:link:after {
 	content:"";
+}
+
+
+/*showing all the small elements*/
+.hide-for-small{
+  display: block !important;
 }
