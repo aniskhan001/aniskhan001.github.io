@@ -502,7 +502,7 @@ select {
   display: none !important; }*/
 
 .hide-for-small{
-  display: visible;
+  display: block !important;
 }
 
 /* Specific visilbity for tables */
