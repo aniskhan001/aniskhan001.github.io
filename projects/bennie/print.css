@@ -499,7 +499,11 @@ select {
 .hide-for-small,
 .hide-for-medium-down,
 .hide-for-large-down {
-  display: none !important; } */
+  display: none !important; }*/
+
+.hide-for-small{
+  display: visible;
+}
 
 /* Specific visilbity for tables */
 table.show-for-small, table.show-for-medium-down, table.show-for-large-down, table.hide-for-medium, table.hide-for-medium-up, table.hide-for-large, table.hide-for-large-up, table.hide-for-xlarge {
