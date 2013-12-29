@@ -4687,7 +4687,12 @@ a.th {
 }
 
 
-/*showing all the small elements*/
+/*added by aniskhan001*/
+
 .hide-for-small{
   display: block !important;
+}
+
+.show-for-small{
+  display: none !important;
 }
