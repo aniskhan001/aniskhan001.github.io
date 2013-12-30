@@ -4762,6 +4762,11 @@ img[src="/images/closeIcon.png"]{
   display: none;
 }
 
+/*clearing checkboxes*/
+label[for="checkboxSC"]{
+  display: none;
+}
+
 /*Footer text align to the middle*/
 footer.row> .columns> .row> .columns{
   text-align: center !important;
