@@ -4752,19 +4752,19 @@ a.th {
   position: relative;
   width: 100%; }
 
-
 .hide-for-medium-up{
   display: none !important;
 }
 
+/*hiding close buttons and related texts*/
+small, input[value="MODIFY"],
 img[src="/images/closeIcon.png"]{
   display: none;
 }
 
-small{
-  display: none;
-}
-
-input[value="MODIFY"]{
-  display: none;
+/*Footer text align to the middle*/
+footer.row> .columns> .row> .columns{
+  text-align: center !important;
+  width: 100%;
+  margin: 0 auto;
 }
