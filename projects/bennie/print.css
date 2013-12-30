@@ -4767,9 +4767,18 @@ label[for="checkboxSC"]{
   display: none;
 }
 
+.large-2.columns.hide-for-small>a[href="/search.asp"]{
+  display: none;
+}
+
 /*Footer text align to the middle*/
 footer.row> .columns> .row> .columns{
   text-align: center !important;
   width: 100%;
   margin: 0 auto;
+}
+
+iframe[name="ink_finder3"]{
+  margin-left: -50px;
+  width: 200px;
 }
