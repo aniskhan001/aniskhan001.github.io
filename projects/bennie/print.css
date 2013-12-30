@@ -4782,3 +4782,8 @@ iframe[name="ink_finder3"]{
   margin-left: -50px;
   width: 200px;
 }
+
+/*added 0.5 inch margin*/
+body{
+  margin: 1.27cm;
+}
