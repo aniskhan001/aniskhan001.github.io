@@ -73,11 +73,48 @@ a:link:after {
   list-style-type: none;
 }
 
-/*Process order*/
+.panel.radius form{
+  margin-left: -20px;
+}
 
+/*single item page*/
+.push-6 {
+  position: relative;
+  left: 50%;
+  right: auto;
+}
+
+.pull-3 {
+  position: relative;
+  right: 25%;
+  left: auto;
+}
+
+section:not(.active){
+  display: none;
+}
+
+.section.hide-for-small.active{
+  display: block !important;
+}
+
+.section.hide-for-small{
+  display: none !important;
+}
+
+div[itemtype="http://data-vocabulary.org/Product"]{
+  overflow: hidden;
+}
+
+/*Process order*/
 
 .hide-for-medium-up{
   display: none !important;
+}
+
+.row .large-offset-8{
+  position: relative;
+  margin-left: 66.66667%;
 }
 
 /*hiding close buttons and related texts*/
