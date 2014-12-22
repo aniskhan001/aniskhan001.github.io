@@ -450,3 +450,8 @@ footer .footer-below {
     display: none;
     opacity: 0;
 }
+
+.profile-pic {
+    max-width: 300px;
+    border-radius: 150px;
+}
