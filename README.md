@@ -1,1 +1,8 @@
-This is a personal repo to play with some techniques that I've been learning!
+aniskhan001.github.io
+=====================
+
+Creating my portfolio
+
+Using HTML theme from "Start Bootstrap"
+
+Link: https://github.com/IronSummitMedia/startbootstrap-freelancer

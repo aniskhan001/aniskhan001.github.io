@@ -1,27 +1,386 @@
-<!doctype html>
-<html>
+<!DOCTYPE html>
+<html lang="en">
 
 <head>
-	<title>Welcome!</title>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Anisuzzaman Khan - Problem Solver, Programmer, Developer</title>
+
+    <!-- Bootstrap Core CSS - Uses Bootswatch Flatly Theme: http://bootswatch.com/flatly/ -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/freelancer.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
 </head>
 
-<body>
-	<h1>Learning github pages</h1>
-	<p>People! Don't laugh. I'm serious at learning this</p>
-	<p>Just added an SSH key, going to test it now</p>
+<body id="page-top" class="index">
 
-	<p><b>Tip:</b> A common mistake is cloning using the default (HTTPS) instead of SSH. You can correct this by going to your repository, clicking the ssh button left to the URL field and updating the URL of your origin remote like this:</p>
+    <!-- Navigation -->
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#page-top">Anisuzzaman Khan</a>
+            </div>
 
-	<code>git remote set-url origin git@github.com:username/repo.git</code>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="hidden">
+                        <a href="#page-top"></a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="#portfolio">Portfolio</a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="#about">About</a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
 
-	<p><b>Tip:</b> We can use ssh-agent to remember your passphrase</p>
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <img class="img-responsive profile-pic" src="img/profile.jpg" alt="">
+                    <div class="intro-text">
+                        <span class="name">Anisuzzaman Khan</span>
+                        <hr class="star-light">
+                        <span class="skills">Problem Solver - Programmer - Web Developer</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
 
-	<code>$ ssh-agent bash <br>
-	$ ssh-add <br>
-	Enter passphrase for /home/elyobo/.ssh/id_rsa: <br>
-	Identity added: /home/elyobo/.ssh/id_rsa (/home/elyobo/.ssh/id_rsa)</code>
+    <!-- Portfolio Grid Section -->
+    <section id="portfolio">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>Portfolio</h2>
+                    <hr class="star-primary">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-4 portfolio-item">
+                    <a href="#portfolio-crftrs-glass" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/crftrs.jpg" class="img-responsive" alt="">
+                    </a>
+                </div>
+                <div class="col-sm-4 portfolio-item">
+                    <a href="#portfolio-lms" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/lms.jpg" class="img-responsive" alt="">
+                    </a>
+                </div>
+                <div class="col-sm-4 portfolio-item">
+                    <a href="#portfolio-oaxaca" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/oaxaca.jpg" class="img-responsive" alt="">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
 
-	<p>Have a look at my <a href="projects/" style="text-decoration:none; font-size:1.5em;">project section</a></p>
+    <!-- About Section -->
+    <section class="success" id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>About</h2>
+                    <hr class="star-light">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2">
+                    <p>I'm real passionate about solving problems. Attended ACM-ICPC Regional Dhaka Site in 2012, 2013 and 2014. Currently I spend most of the time learning various different algorithms.</p>
+                    <p>Believe in smart-work over hard-work. Love changes, don't want to stuck myself on traditional low-profit systems.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>Contact</h2>
+                    <hr class="star-primary">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2">
+                    <!-- To configure the contact form email address, go to mail/contact_me.php and update the email address in the PHP file on line 19. -->
+                    <!-- The form should work on most web servers, but if the form is not working you may need to configure your web server differently. -->
+                    <form name="sentMessage" id="contactForm" novalidate>
+                        <div class="row control-group">
+                            <div class="form-group col-xs-12 floating-label-form-group controls">
+                                <label>Name</label>
+                                <input type="text" class="form-control" placeholder="Name" id="name" required data-validation-required-message="Please enter your name.">
+                                <p class="help-block text-danger"></p>
+                            </div>
+                        </div>
+                        <div class="row control-group">
+                            <div class="form-group col-xs-12 floating-label-form-group controls">
+                                <label>Email Address</label>
+                                <input type="email" class="form-control" placeholder="Email Address" id="email" required data-validation-required-message="Please enter your email address.">
+                                <p class="help-block text-danger"></p>
+                            </div>
+                        </div>
+                        <div class="row control-group">
+                            <div class="form-group col-xs-12 floating-label-form-group controls">
+                                <label>Phone Number</label>
+                                <input type="tel" class="form-control" placeholder="Phone Number" id="phone" required data-validation-required-message="Please enter your phone number.">
+                                <p class="help-block text-danger"></p>
+                            </div>
+                        </div>
+                        <div class="row control-group">
+                            <div class="form-group col-xs-12 floating-label-form-group controls">
+                                <label>Send Message</label>
+                                <textarea rows="5" class="form-control" placeholder="Message" id="message" required data-validation-required-message="Please enter a message."></textarea>
+                                <p class="help-block text-danger"></p>
+                            </div>
+                        </div>
+                        <br>
+                        <div id="success"></div>
+                        <div class="row text-center">
+                            <div class="form-group col-xs-12">
+                                <button type="submit" class="btn btn-success btn-lg">Send Message</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="text-center">
+        <div class="footer-above">
+            <div class="container">
+                <div class="row">
+                    <div class="footer-col col-md-4">
+                        <h3><i class="fa fa-location-arrow"></i> Find Me</h3>
+                        <p>39/B, Senpara Parbata, Mirpur 10<br>Dhaka, Bangladesh</p>
+                    </div>
+                    <div class="footer-col col-md-4">
+                        <h3><i class="fa fa-globe"></i> On the Web</h3>
+                        <ul class="list-inline">
+                            <li>
+                                <a href="https://github.com/aniskhan001" class="btn-social btn-outline"><i class="fa fa-fw fa-github"></i></a>
+                            </li>
+                            <li>
+                                <a href="http://stackoverflow.com/users/1712600/aniskhan001" class="btn-social btn-outline"><i class="fa fa-fw fa-stack-overflow"></i></a>
+                            </li>
+                            <li>
+                                <a href="https://plus.google.com/+AnisuzzamanKhan/" class="btn-social btn-outline"><i class="fa fa-fw fa-google-plus"></i></a>
+                            </li>
+                            <li>
+                                <a href="https://twitter.com/aniskhan001" class="btn-social btn-outline"><i class="fa fa-fw fa-twitter"></i></a>
+                            </li>
+                            <li>
+                                <a href="https://www.linkedin.com/in/aniskhan001" class="btn-social btn-outline"><i class="fa fa-fw fa-linkedin"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="footer-col col-md-4">
+                        <h3><i class="fa fa-male"></i> More About Me</h3>
+                        <p>C++, JavaScript and Python fan. Hardcore gamer on leisure time.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-below">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        &copy; Anisuzzaman Khan | Theme by <a href="https://github.com/IronSummitMedia/startbootstrap-freelancer">Start Bootstrap</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes) -->
+    <div class="scroll-top page-scroll visible-xs visble-sm">
+        <a class="btn btn-primary" href="#page-top">
+            <i class="fa fa-chevron-up"></i>
+        </a>
+    </div>
+
+    <!-- Portfolio Modals -->
+    <div class="portfolio-modal modal fade" id="portfolio-crftrs-glass" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>jQuery - Full Page Animation</h2>
+                            <hr class="star-primary">
+                            <img src="img/portfolio/crftrs.jpg" class="img-responsive img-centered" alt="">
+                            <p>My client wanted a site which is similar to <a target="_blank" href="http://www.themessagestudios.com/siteaug.html">The Message Studio</a> which was developed with flash. But they didn't wanted to use flash on their site. So, I provided a very light and optimized solution to this problem with the help of jQuery.</p>
+                            <ul class="list-inline item-details">
+                                <li>Client:
+                                    <strong><a target="_blank" href="http://crftrs.com/">Crafters Glass</a>
+                                    </strong>
+                                </li>
+                                <li>Date:
+                                    <strong>October 2013</strong>
+                                </li>
+                                <li>Service:
+                                    <strong>Web Development</strong>
+                                </li>
+                            </ul>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="portfolio-modal modal fade" id="portfolio-lms" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>WordPress Theme Customization</h2>
+                            <hr class="star-primary">
+                            <img src="img/portfolio/lms.jpg" class="img-responsive img-centered" alt="">
+                            <p>The original theme was Kiddo-turf WordPress theme. For designing the site, client needed me to change the entire theme to match his imagination. On the development, I designed the headers and footers and added pages and posts. Several plugins were used for several different functionality such as restricting normal users on some pages/posts, backup site settings and files, homepage slider etc. I also developed some custom plugins and shorcodes for some easier navigaton throughout the site.</p>
+                            <ul class="list-inline item-details">
+                                <li>Client:
+                                    <strong><a target="_blank" href="http://www.lawrencemontessorischool.com/">Lawrence Montessori School</a>
+                                    </strong>
+                                </li>
+                                <li>Date:
+                                    <strong>February 2014</strong>
+                                </li>
+                                <li>Service:
+                                    <strong>Web Design and Development</strong>
+                                </li>
+                            </ul>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="portfolio-modal modal fade" id="portfolio-oaxaca" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Landing page with Twitter Bootstrap</h2>
+                            <hr class="star-primary">
+                            <img src="img/portfolio/oaxaca.jpg" class="img-responsive img-centered" alt="">
+                            <p>Landing page for an upcoming movie (on that moment) was needed by the client. They needed a responsive site so people can play around with the site from every devices. I gave him the solution by building the site on Twitter bootstrap framework. Also edited 3rd party navigation plugin to match with sites scheme.</p>
+                            <ul class="list-inline item-details">
+                                <li>Client:
+                                    <strong><a target="_blank" href="http://www.oaxacafilmfest.com/">Oaxaca Film Fest</a>
+                                    </strong>
+                                </li>
+                                <li>Date:
+                                    <strong>November 2013</strong>
+                                </li>
+                                <li>Service:
+                                    <strong>Web Development</strong>
+                                </li>
+                            </ul>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+    <script src="js/classie.js"></script>
+    <script src="js/cbpAnimatedHeader.js"></script>
+
+    <!-- Contact Form JavaScript -->
+    <script src="js/jqBootstrapValidation.js"></script>
+    <script src="js/contact_me.js"></script>
+
+    <!-- Custom Theme JavaScript -->
+    <script src="js/freelancer.js"></script>
+
 </body>
 
 </html>
