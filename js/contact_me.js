@@ -30,7 +30,7 @@ $(function() {
                             'Reply-To': email
                         },
                         'subject': 'aniskhan001.github.io [New Message recieved]',
-                        'text': 'Name: '+name+'\nEmail: '+email+'\nPhone: '+phone+'\n\nMessage: '+message,
+                        'text': message,
                         'to': [
                         {
                             'email': 'aniskhan001@yahoo.com',
