@@ -33,7 +33,7 @@ $(function() {
                         'text': 'Name: '+name+'\nEmail: '+email+'\nPhone: '+phone+'\n\nMessage: '+message,
                         'to': [
                         {
-                            'email': 'aniskhan001@yahoo.com',
+                            'email': 'aniskhan001@live.com',
                             'name': 'Anisuzzman Khan',
                             'type': 'to'
                         }]
