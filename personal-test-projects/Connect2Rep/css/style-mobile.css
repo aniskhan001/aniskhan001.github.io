@@ -80,6 +80,7 @@
 			ul.special li
 			{
 				margin: 0.5em;
+				max-width: 8em;
 			}
 
 				ul.special li:hover

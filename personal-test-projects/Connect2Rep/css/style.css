@@ -223,7 +223,7 @@
 			font-weight: 700;
 			text-transform: uppercase;
 			text-decoration: none;
-			background: #b1ddab;
+			background: #7AC143;
 			color: #fff;
 			border: 0;
 			line-height: 1em;
@@ -398,6 +398,8 @@
 				-o-transition: top .15s ease-in-out;
 				-ms-transition: top .15s ease-in-out;
 				transition: top .15s ease-in-out;
+				max-width: 12em;
+				vertical-align: top;
 			}
 
 				ul.special li:hover
@@ -723,8 +725,8 @@
 	#main-wrapper
 	{
 		background: #fff;
-		border-top: solid 5px #b1ddab;
 		border-bottom: solid 5px #c1cac5;
+		border-top: solid 5px #7AC143;
 	}
 	
 /*********************************************************************************/
@@ -861,3 +863,35 @@
 /* Extra touch up                                                                */
 /*********************************************************************************/
 
+img.branding
+{
+	height: 30px;
+	vertical-align: bottom;
+}
+
+img.aftercall
+{
+	height: 100px;
+}
+
+h3 i.service
+{
+	font-size: 2em;
+}
+
+.video-container
+{
+	position: relative;
+	height: 0;
+	overflow: hidden;
+	padding-bottom: 56.25%;
+}
+
+.video-container iframe
+{
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	top: 0;
+	left: 0;
+}
