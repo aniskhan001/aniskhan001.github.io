@@ -884,7 +884,9 @@ h3 i.service
 	position: relative;
 	height: 0;
 	overflow: hidden;
-	padding-bottom: 56.25%;
+	padding-bottom: 42.25%;
+	width: 70%;
+	margin: 0 auto;
 }
 
 .video-container iframe
