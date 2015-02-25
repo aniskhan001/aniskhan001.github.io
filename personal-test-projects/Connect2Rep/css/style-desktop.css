@@ -323,16 +323,6 @@
 			transition: top .15s ease-in-out;
 		}
 
-		#nav ul.secondary li a.nav-sign-in
-		{
-			background: #98DDEC;
-		}
-
-		#nav ul.secondary li a.nav-join
-		{
-			background: #B1E589;
-		}
-
 			#nav li > ul
 			{
 				display: none;
@@ -381,6 +371,16 @@
 					color: #fff;
 					background: #7AC143;
 				}
+
+			a.nav-sign-in
+			{
+				background: #98DDEC;
+			}
+
+			a.nav-join
+			{
+				background: #B1E589;
+			}
 
 	.dropotron
 	{
@@ -498,6 +498,35 @@
 		{
 			text-align: left;
 		}
+
+		#footer .footer-sign-in
+		{
+
+		}
+
+			#footer .footer-sign-in a
+			{
+				display: inline;
+				padding: 1em;
+				border-radius: 6px;
+				font-weight: 700;
+				text-transform: uppercase;
+				text-decoration: none;
+				font-family: 'Open Sans Condensed', sans-serif;
+				font-size: 16px;
+				margin: 0 10px;
+				-webkit-transition: all 0.2s ease;
+				-moz-transition: all 0.2s ease;
+				-ms-transition: all 0.2s ease;
+				transition: all 0.2s ease;
+			}
+
+			#footer .footer-sign-in a:hover
+			{
+				color: #fff;
+				background: #C1CAC5;
+				padding: 1.25em 1em;
+			}
 
 /*********************************************************************************/
 /* Copyright                                                                     */
