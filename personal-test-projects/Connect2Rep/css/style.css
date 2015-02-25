@@ -409,14 +409,20 @@
 
 					ul.special li:hover a
 					{
-						background: #b9d2ce;
+						background: #F0F0F0;
 					}
+					
+						ul.special li:hover a:before
+						{
+							color: #7AC142;
+							text-shadow: 0 0 20px #B2F77D;
+						}
 
 				ul.special a
 				{
 					display: block;
 					position: relative;
-					background: #c1cac5;
+					background: #7BC244;
 					width: 12em;
 					height: 12em;
 					border-radius: 6em;
@@ -426,8 +432,9 @@
 					-o-transition: background-color .2s ease-in-out;
 					-ms-transition: background-color .2s ease-in-out;
 					transition: background-color .2s ease-in-out;
+					box-shadow: 0 0 5px #fff inset;
 				}
-
+					
 					ul.special a:before
 					{
 						position: absolute;
@@ -442,6 +449,7 @@
 						color: #fff;
 						text-align: center;
 					}
+
 
 		ul.meta
 		{
@@ -674,6 +682,11 @@
 			{
 			}
 
+				.box.highlight b, .box.highlight strong, .box.highlight h2
+				{
+					color: #F0F0F0;
+				}
+
 /*********************************************************************************/
 /* Icons                                                                         */
 /*********************************************************************************/
@@ -725,7 +738,6 @@
 	#main-wrapper
 	{
 		background: #fff;
-		border-bottom: solid 5px #c1cac5;
 		border-top: solid 5px #7AC143;
 	}
 	
