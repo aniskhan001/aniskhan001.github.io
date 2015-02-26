@@ -548,6 +548,7 @@
 				form textarea:focus
 				{
 					border-color: #a1cd9b;
+					outline: none;
 				}
 
 			form input[type="text"],
@@ -908,4 +909,15 @@ h3 i.service
 	width: 100%;
 	top: 0;
 	left: 0;
+}
+
+.contact-form
+{
+	max-width: 800px;
+	margin: 0 auto;
+}
+
+.contact-form > *
+{
+	margin: 10px 0;
 }
