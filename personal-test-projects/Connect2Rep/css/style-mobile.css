@@ -146,6 +146,11 @@
 				{
 				}
 
+					.box.highlight .special span
+					{
+						display: none;
+					}
+
 				.box.highlight h2
 				{
 					font-size: 2.25em;
@@ -265,7 +270,7 @@
 
 	#banner-wrapper
 	{
-		padding: 9em 0 5em 0;
+		padding: 5em 0 4em 0;
 	}
 	
 	#main-wrapper
@@ -285,8 +290,18 @@
 
 	#header
 	{
-		display: none;
+		margin-top: 40px;
 	}
+
+		#header .logo
+		{
+			height: 80px;
+		}
+		
+			#header .logo a
+			{
+				background-size: 70%;
+			}
 
 /*********************************************************************************/
 /* Nav                                                                           */

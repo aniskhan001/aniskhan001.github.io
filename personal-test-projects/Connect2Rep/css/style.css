@@ -750,6 +750,24 @@
 	{
 	}
 
+		#header .logo
+		{
+			position: relative;
+			text-align: center;
+			height: 115px;
+		}
+
+			#header .logo a
+			{
+				background-image: url(../images/connect2rep.png);
+				background-size: 50%;
+				background-repeat: no-repeat;
+				background-position: 50%;
+				display: block;
+				height: 100%;
+				width: 100%;
+			}
+
 /*********************************************************************************/
 /* Nav                                                                           */
 /*********************************************************************************/
