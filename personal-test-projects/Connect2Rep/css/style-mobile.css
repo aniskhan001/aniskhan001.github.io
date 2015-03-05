@@ -270,7 +270,7 @@
 
 	#banner-wrapper
 	{
-		padding: 5em 0 4em 0;
+		padding: 2em 0 2em 0;
 	}
 	
 	#main-wrapper
@@ -290,7 +290,7 @@
 
 	#header
 	{
-		margin-top: 40px;
+		margin-top: 50px;
 	}
 
 		#header .logo
@@ -321,6 +321,16 @@
 		padding: 2.5em 20px;
 		margin: 0 !important;
 	}
+
+		#banner h1
+		{
+			font-size: 2em;
+		}
+
+		#banner img
+		{
+			height: 60px;
+		}
 
 		#banner h2
 		{

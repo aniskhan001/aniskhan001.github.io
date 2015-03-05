@@ -735,6 +735,17 @@
 		background-size:			auto,						auto,						cover;
 		z-index: 1;
 	}
+	
+		#banner-wrapper .slogan
+		{
+			font-size: 2.23em;
+			font-family: 'Open Sans Condensed', sans-serif;
+			text-transform: uppercase;
+			text-align: center;
+			margin: 0;
+			padding: 0.5em 0 0;
+			color: #F0F0F0;
+		}
 
 	#main-wrapper
 	{
@@ -750,22 +761,29 @@
 	{
 	}
 
+		#header > *
+		{
+			text-align: center;
+			margin: 0;
+		}
+
 		#header .logo
 		{
 			position: relative;
 			text-align: center;
+			width: 40%;
 			height: 115px;
 		}
 
 			#header .logo a
 			{
 				background-image: url(../images/connect2rep.png);
-				background-size: 50%;
 				background-repeat: no-repeat;
 				background-position: 50%;
 				display: block;
 				height: 100%;
 				width: 100%;
+				background-size: 50%;
 			}
 
 /*********************************************************************************/
@@ -791,6 +809,17 @@
 		text-align: center;
 		margin: 0;
 	}
+
+		#banner h1
+		{
+			font-size: 3em;
+		}
+
+		#banner img
+		{
+			vertical-align: middle;
+		}
+
 
 		#banner h2
 		{

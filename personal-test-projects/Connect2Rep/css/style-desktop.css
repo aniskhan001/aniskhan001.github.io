@@ -212,7 +212,7 @@
 
 	#banner-wrapper
 	{
-		padding: 3em 0 5em;
+		padding: 3em 0 2em;
 	}
 	
 	#main-wrapper
@@ -235,24 +235,41 @@
 		padding: 2em 0 0.15em 0;
 		background: #fff;
 		margin: 0 auto;
+		clear: both;
+		height: 200px;
 	}
+		
+		#header > *
+		{
+			font-size: 1em;
+			float: left;
+			width: 30%;
+			padding-top: 35px;
+			margin: 0;
+		}
+
+		#header h2
+		{
+			padding-top: 50px;
+		}
 
 		#header .logo
 		{
-			position: relative;
+			padding: 0;
 			text-align: center;
-			height: 115px;
+			position: relative;
+			height: 138px;
 		}
 
 			#header .logo a
 			{
 				background-image: url(../images/connect2rep.png);
-				background-size: 50%;
 				background-repeat: no-repeat;
 				background-position: 50%;
 				display: block;
 				height: 100%;
 				width: 100%;
+				background-size: 100%;
 			}
 
 			#header .logo div
