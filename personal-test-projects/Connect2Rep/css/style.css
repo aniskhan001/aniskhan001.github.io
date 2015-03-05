@@ -974,6 +974,12 @@ h3 i.service
 	text-align: center;
 }
 
+	.address-box img
+	{
+		margin: 0;
+		width: 210px;
+	}
+	
 	.address-box > *
 	{
 		margin-bottom: 0.5em;
