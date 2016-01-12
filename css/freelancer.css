@@ -101,6 +101,7 @@ header .intro-text .name {
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 2em;
     font-weight: 700;
+    text-shadow: 0 0 20px #3D8D7E;
 }
 
 header .intro-text .skills {
@@ -453,5 +454,7 @@ footer .footer-below {
 
 .profile-pic {
     max-width: 300px;
-    border-radius: 150px;
+    border-radius: 10px;
+    border: 6px solid #fff;
+    box-shadow: 0 0 100px #5E5E5E;
 }
