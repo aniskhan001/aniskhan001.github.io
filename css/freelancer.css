@@ -207,6 +207,7 @@ section.success {
     max-width: 400px;
     max-height: 200px;
     overflow: hidden;
+    box-shadow: 0 0 20px 5px #E8E8E8;
 }
 
 #portfolio .portfolio-item .portfolio-link .caption {
