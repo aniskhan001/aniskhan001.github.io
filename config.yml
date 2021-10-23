@@ -9,7 +9,8 @@ buildFuture: false
 buildExpired: false
 pluralizeListTitles: false
 
-googleAnalytics: G-HKTS2WR0QV
+# googleAnalytics: G-HKTS2WR0QV
+googleAnalytics: UA-52769301-2
 disqusShortname: aniskhan001
 
 minify:
