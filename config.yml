@@ -9,7 +9,7 @@ buildFuture: false
 buildExpired: false
 pluralizeListTitles: false
 
-googleAnalytics: UA-123-45
+googleAnalytics: G-HKTS2WR0QV
 disqusShortname: aniskhan001
 
 minify:
@@ -44,15 +44,15 @@ params:
     assets:
         # disableHLJS: true # to disable highlight.js
         # disableFingerprinting: true
-        favicon: "icon/favicon.ico"
-        favicon16x16: "icon/favicon16x16.png"
-        favicon32x32: "icon/favicon32x32.png"
-        apple_touch_icon: "icon/apple_touch_icon.png"
-        safari_pinned_tab: "icon/apple_touch_icon.png"
+        favicon: "/icon/favicon.ico"
+        favicon16x16: "/icon/favicon16x16.png"
+        favicon32x32: "/icon/favicon32x32.png"
+        apple_touch_icon: "/icon/apple_touch_icon.png"
+        safari_pinned_tab: "/icon/apple_touch_icon.png"
 
     label:
         text: "Home"
-        icon: icon/favicon.ico
+        icon: /icon/favicon.ico
         iconHeight: 35
 
     # profile-mode
