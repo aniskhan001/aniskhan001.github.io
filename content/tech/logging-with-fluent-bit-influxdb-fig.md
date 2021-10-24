@@ -23,8 +23,6 @@ cover:
     hidden: true # only hide on current single page
 ---
 
----
-
 ## Motivation
 
 For a small Kubernetes cluster, I needed a minimal dashboard where logs from all the running applications in the Kubernetes environment can be viewed or grepped from one place.
