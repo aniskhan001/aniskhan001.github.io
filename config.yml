@@ -58,14 +58,14 @@ params:
         enabled: true # needs to be explicitly set
         title: Anis Khan
         subtitle: I write in a text editor
-        imageUrl: img/profile.jpg
+        imageUrl: /img/profile.jpg
         imageWidth: 120
         imageHeight: 120
         imageTitle: Anis Khan
         buttons:
-            # - name: Life Blogs
+            # - name: 🌴 Life Blogs
             #   url: life
-            - name: Tech Blogs
+            - name: 🧑‍💻 Tech Blogs
               url: tech
 
     socialIcons:
@@ -77,6 +77,8 @@ params:
           url: "https://linkedin.com/in/aniskhan001"
         - name: stackoverflow
           url: "https://stackoverflow.com/users/1712600/aniskhan001"
+        - name: steam
+          url: "https://steamcommunity.com/id/aniskhan001"
 
     analytics:
         google:
