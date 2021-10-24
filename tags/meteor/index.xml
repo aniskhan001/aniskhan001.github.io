@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>meteor on Anis Khan</title>
+    <link>https://aniskhan001.me/tags/meteor/</link>
+    <description>Recent content in meteor on Anis Khan</description>
+    <image>
+      <url>https://aniskhan001.me/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://aniskhan001.me/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Mon, 30 Jul 2018 00:00:00 +0000</lastBuildDate><atom:link href="https://aniskhan001.me/tags/meteor/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Easy Continuous Delivery for Meteor app with GitLab &#43; Heroku</title>
+      <link>https://aniskhan001.me/tech/easy-continuous-delivery-for-meteor-app-with-gitlab-heroku/</link>
+      <pubDate>Mon, 30 Jul 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://aniskhan001.me/tech/easy-continuous-delivery-for-meteor-app-with-gitlab-heroku/</guid>
+      <description>Motivation 🌌 🌠 Recently I worked on a MeteorJS project. The live version of the app is hosted on Galaxy and there was no staging environment for this one. So we needed to deploy another instance of this app in a staging environment. The codebase was hosted on GitLab and we have a shared cluster of MongoDB in mLab. While we wanted to run the staging environment efficiently, we also wanted to make sure the deployment is as cost-effective as we can.</description>
+    </item>
+    
+  </channel>
+</rss>

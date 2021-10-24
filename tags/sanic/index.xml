@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>sanic on Anis Khan</title>
+    <link>https://aniskhan001.me/tags/sanic/</link>
+    <description>Recent content in sanic on Anis Khan</description>
+    <image>
+      <url>https://aniskhan001.me/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://aniskhan001.me/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Sat, 09 Jun 2018 00:00:00 +0000</lastBuildDate><atom:link href="https://aniskhan001.me/tags/sanic/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How I reduced the size of a Docker image</title>
+      <link>https://aniskhan001.me/tech/how-i-reduced-the-size-of-a-docker-image/</link>
+      <pubDate>Sat, 09 Jun 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://aniskhan001.me/tech/how-i-reduced-the-size-of-a-docker-image/</guid>
+      <description>December 2017, at work, I had to deploy a micro-service very very quickly to support the core service of ours. The framework I used for this one was Sanic, (a micro-framework written in Python 3.5 with Async support). So, I get the python image first along with dependencies in a requirements.txt file. This is how it went:
+FROMpython:3.6ENV PYTHONUNBUFFERED 1ENV TZ=Asia/DhakaRUN ln -snf /usr/share/zoneinfo/$TZ /etc/localtime &amp;amp;&amp;amp; echo $TZ &amp;gt; /etc/timezoneRUN mkdir /appADD requirements.</description>
+    </item>
+    
+  </channel>
+</rss>

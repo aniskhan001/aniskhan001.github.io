@@ -46,5 +46,68 @@
       <description></description>
     </item>
     
+    <item>
+      <title>continuous-delivery</title>
+      <link>https://aniskhan001.me/tags/continuous-delivery/</link>
+      <pubDate>Mon, 30 Jul 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://aniskhan001.me/tags/continuous-delivery/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>gitlab</title>
+      <link>https://aniskhan001.me/tags/gitlab/</link>
+      <pubDate>Mon, 30 Jul 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://aniskhan001.me/tags/gitlab/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>heroku</title>
+      <link>https://aniskhan001.me/tags/heroku/</link>
+      <pubDate>Mon, 30 Jul 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://aniskhan001.me/tags/heroku/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>meteor</title>
+      <link>https://aniskhan001.me/tags/meteor/</link>
+      <pubDate>Mon, 30 Jul 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://aniskhan001.me/tags/meteor/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>docker</title>
+      <link>https://aniskhan001.me/tags/docker/</link>
+      <pubDate>Sat, 09 Jun 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://aniskhan001.me/tags/docker/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>python</title>
+      <link>https://aniskhan001.me/tags/python/</link>
+      <pubDate>Sat, 09 Jun 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://aniskhan001.me/tags/python/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>sanic</title>
+      <link>https://aniskhan001.me/tags/sanic/</link>
+      <pubDate>Sat, 09 Jun 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://aniskhan001.me/tags/sanic/</guid>
+      <description></description>
+    </item>
+    
   </channel>
 </rss>
