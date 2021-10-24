@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Anis Khan</title>
-    <link>https://aniskhan001.me/</link>
-    <description>Recent content on Anis Khan</description>
+    <title>fluent-bit on Anis Khan</title>
+    <link>https://aniskhan001.me/tags/fluent-bit/</link>
+    <description>Recent content in fluent-bit on Anis Khan</description>
     <image>
       <url>https://aniskhan001.me/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
       <link>https://aniskhan001.me/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Wed, 15 Apr 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://aniskhan001.me/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 15 Apr 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://aniskhan001.me/tags/fluent-bit/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Logging with Fluent Bit &amp; InfluxDB</title>
       <link>https://aniskhan001.me/tech/logging-with-fluent-bit-influxdb-fig/</link>
