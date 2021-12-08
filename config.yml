@@ -73,6 +73,8 @@ params:
           url: "https://twitter.com/aniskhan001"
         - name: github
           url: "https://github.com/aniskhan001"
+        - name: youtube
+          url: "https://www.youtube.com/c/EnjoyYourLifeNow"
         - name: linkedin
           url: "https://linkedin.com/in/aniskhan001"
         - name: stackoverflow
