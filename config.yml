@@ -63,8 +63,8 @@ params:
         imageHeight: 120
         imageTitle: Anis Khan
         buttons:
-            # - name: 🌴 Life Blogs
-            #   url: life
+            - name: 🌴 Life Blogs
+              url: life
             - name: 🧑‍💻 Tech Blogs
               url: tech
 
