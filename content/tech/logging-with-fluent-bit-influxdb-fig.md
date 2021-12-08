@@ -176,7 +176,7 @@ And thus we are ready to run our queries!
 ### Example query and dashboard
 
 {{< figure
-    src="https://cdn-images-1.medium.com/max/2034/1*_Oda4TMOaelQnQ0iGPjE3Q.png"
+    src="/img/tech/query.png"
     caption="select everything (*) from a measurement in InfluxDB"
     align=center
 >}}
@@ -184,7 +184,7 @@ And thus we are ready to run our queries!
 Using [InfluxQL](https://docs.influxdata.com/influxdb/v1.7/query_language/spec/), you can query and grep only the things that are meaningful to your needs. The Influx Query Language is a lot similar to MySQL or other SQL queries.
 
 {{< figure
-    src="https://cdn-images-1.medium.com/max/2584/1*RB7AjUCAnyMR2xElAHJ5LA.png"
+    src="/img/tech/logs.png"
     caption="Show all logs from a particular container"
     class=big-picture
     align=center

@@ -30,7 +30,7 @@ At the time of this writing, they support 4 different deployment methods:\
 These are: _Heroku repo (GIT), GitHub, Dropbox, and Container Registry_
 
 {{< figure
-    src="https://cdn-images-1.medium.com/max/2586/1*nHlhh7SkZY1RLuq-r6gxEg.png"
+    src="/img/tech/heroku.png"
     caption="Heroku Deployment Methods"
     class=big-picture
     align=center
@@ -60,7 +60,7 @@ Then, we will need to set up the API key so that it can connect to the runner.
 * Place the Heroku API Key under **Settings ➔ CI / CD ➔ Variables**
 
 {{< figure
-    src="https://cdn-images-1.medium.com/max/2670/1*-Zvvq9z8Zo_7QzmrlUXibA.png"
+    src="/img/tech/gitlab.png"
     caption="GitLab CI/CD Settings"
     class=big-picture
     align=center
@@ -106,7 +106,7 @@ This doc explains how we can install the runner either on our local machine or i
 I’d recommend using the [Meteor Buildpack Horse](https://github.com/AdmitHub/meteor-buildpack-horse) for Meteor app with Heroku which provides easy configuration to start the app. All we need to do is to define the `ROOT_URL` and `MONGO_URL`.
 
 {{< figure
-    src="https://cdn-images-1.medium.com/max/2572/1*rNhKYxKCKzTEymuKMT2zTw.png"
+    src="/img/tech/heroku-config.png"
     caption="Heroku buildpack settings"
     class=big-picture
     align=center
