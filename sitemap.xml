@@ -2,6 +2,24 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://aniskhan001.me/tags/abroadlife/</loc>
+    <lastmod>2021-09-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://aniskhan001.me/tags/jobinabroad/</loc>
+    <lastmod>2021-09-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://aniskhan001.me/tags/</loc>
+    <lastmod>2021-09-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://aniskhan001.me/life/%E0%A6%9C%E0%A6%AC-%E0%A6%A8%E0%A6%BF%E0%A6%AF%E0%A6%BC%E0%A7%87-%E0%A6%95%E0%A6%BF%E0%A6%AD%E0%A6%BE%E0%A6%AC%E0%A7%87-%E0%A6%AC%E0%A6%BF%E0%A6%A6%E0%A7%87%E0%A6%B6%E0%A7%87-%E0%A6%AF%E0%A6%BE%E0%A6%93%E0%A6%AF%E0%A6%BC%E0%A6%BE-%E0%A6%AF%E0%A6%BE%E0%A6%AF%E0%A6%BC-%E0%A6%AA%E0%A6%B0%E0%A7%8D%E0%A6%AC-%E0%A7%A6/</loc>
+    <lastmod>2021-09-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://aniskhan001.me/life/</loc>
+    <lastmod>2021-09-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://aniskhan001.me/</loc>
+    <lastmod>2021-09-06T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://aniskhan001.me/tags/fluent-bit/</loc>
     <lastmod>2020-04-15T00:00:00+00:00</lastmod>
   </url><url>
@@ -15,12 +33,6 @@
     <lastmod>2020-04-15T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://aniskhan001.me/tech/logging-with-fluent-bit-influxdb-fig/</loc>
-    <lastmod>2020-04-15T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://aniskhan001.me/tags/</loc>
-    <lastmod>2020-04-15T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://aniskhan001.me/</loc>
     <lastmod>2020-04-15T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://aniskhan001.me/tech/</loc>
@@ -54,7 +66,5 @@
     <lastmod>2018-06-09T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://aniskhan001.me/categories/</loc>
-  </url><url>
-    <loc>https://aniskhan001.me/life/</loc>
   </url>
 </urlset>
