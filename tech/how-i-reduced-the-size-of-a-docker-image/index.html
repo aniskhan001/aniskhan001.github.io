@@ -12,7 +12,8 @@ FROMpython:3.6ENV PYTHONUNBUFFERED 1ENV TZ=Asia/DhakaRUN ln -snf /usr/share/zone
 <meta name=google-site-verification content="XYZabc">
 <meta name=yandex-verification content="XYZabc">
 <meta name=msvalidate.01 content="XYZabc">
-<link href=/assets/css/stylesheet.min.9d530527b2666841fd1c28085916acc5f325b314ac094f406115ef94d426d2a7.css integrity="sha256-nVMFJ7JmaEH9HCgIWRasxfMlsxSsCU9AYRXvlNQm0qc=" rel="preload stylesheet" as=style>
+<link crossorigin=anonymous href=/assets/css/stylesheet.min.9907859f1602a742fdc62d4c9e2e249f9963bea382ef6df063dede9ce9e2e8dd.css integrity="sha256-mQeFnxYCp0L9xi1Mni4kn5ljvqOC723wY97enOni6N0=" rel="preload stylesheet" as=style>
+<script defer crossorigin=anonymous src=/assets/js/highlight.min.7680afc38aa6b15ddf158a4f3780b7b1f7dde7e91d26f073e6229bb7a0793c92.js integrity="sha256-doCvw4qmsV3fFYpPN4C3sffd5+kdJvBz5iKbt6B5PJI=" onload=hljs.initHighlightingOnLoad()></script>
 <link rel=icon href=https://aniskhan001.me/icon/favicon.ico>
 <link rel=icon type=image/png sizes=16x16 href=https://aniskhan001.me/icon/favicon16x16.png>
 <link rel=icon type=image/png sizes=32x32 href=https://aniskhan001.me/icon/favicon32x32.png>
@@ -21,6 +22,10 @@ FROMpython:3.6ENV PYTHONUNBUFFERED 1ENV TZ=Asia/DhakaRUN ln -snf /usr/share/zone
 <meta name=theme-color content="#2e2e33">
 <meta name=msapplication-TileColor content="#2e2e33">
 <meta name=generator content="Hugo 0.88.1">
+<noscript>
+<style>#theme-toggle,.top-link{display:none}</style>
+<style>@media(prefers-color-scheme:dark){:root{--theme:rgb(29, 30, 32);--entry:rgb(46, 46, 51);--primary:rgb(218, 218, 219);--secondary:rgb(155, 156, 157);--tertiary:rgb(65, 66, 68);--content:rgb(196, 196, 197);--hljs-bg:rgb(46, 46, 51);--code-bg:rgb(55, 56, 62);--border:rgb(51, 51, 51)}.list{background:var(--theme)}.list:not(.dark)::-webkit-scrollbar-track{background:0 0}.list:not(.dark)::-webkit-scrollbar-thumb{border-color:var(--theme)}}</style>
+</noscript>
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-HKTS2WR0QV"></script>
 <script>var doNotTrack=!1;if(!doNotTrack){window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag('js',new Date),gtag('config','G-HKTS2WR0QV',{anonymize_ip:!1})}</script>
 <meta property="og:title" content="How I reduced the size of a Docker image">
@@ -40,10 +45,6 @@ FROMpython:3.6ENV PYTHONUNBUFFERED 1ENV TZ=Asia/DhakaRUN ln -snf /usr/share/zone
 </head>
 <body id=top>
 <script>localStorage.getItem("pref-theme")==="dark"?document.body.classList.add('dark'):localStorage.getItem("pref-theme")==="light"?document.body.classList.remove('dark'):window.matchMedia('(prefers-color-scheme: dark)').matches&&document.body.classList.add('dark')</script>
-<noscript>
-<style type=text/css>#theme-toggle,.top-link{display:none}</style>
-<style>@media(prefers-color-scheme:dark){:root{--theme:#1d1e20;--entry:#2e2e33;--primary:rgba(255, 255, 255, 0.84);--secondary:rgba(255, 255, 255, 0.56);--tertiary:rgba(255, 255, 255, 0.16);--content:rgba(255, 255, 255, 0.74);--hljs-bg:#2e2e33;--code-bg:#37383e;--border:#333}.list{background:var(--theme)}.list:not(.dark)::-webkit-scrollbar-track{background:0 0}.list:not(.dark)::-webkit-scrollbar-thumb{border-color:var(--theme)}}</style>
-</noscript>
 <header class=header>
 <nav class=nav>
 <div class=logo>
@@ -51,7 +52,7 @@ FROMpython:3.6ENV PYTHONUNBUFFERED 1ENV TZ=Asia/DhakaRUN ln -snf /usr/share/zone
 <span class=logo-switches>
 </span>
 </div>
-<ul id=menu onscroll=menu_on_scroll()><li>
+<ul id=menu><li>
 <button id=theme-toggle accesskey=t title="(Alt + T)"><svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79z"/></svg><svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg>
 </button>
 </li>
@@ -61,19 +62,15 @@ FROMpython:3.6ENV PYTHONUNBUFFERED 1ENV TZ=Asia/DhakaRUN ln -snf /usr/share/zone
 <main class=main>
 <article class=post-single>
 <header class=post-header>
-<div class=breadcrumbs>
-<a href=https://aniskhan001.me/>💥 Home</a>
-<a href=https://aniskhan001.me/tech/>🧑‍💻 Tech Blogs</a>
-</div>
+<div class=breadcrumbs><a href=https://aniskhan001.me/>💥 Home</a>
+<a href=https://aniskhan001.me/tech/>🧑‍💻 Tech Blogs</a></div>
 <h1 class=post-title>
 How I reduced the size of a Docker image
 </h1>
-<div class=post-meta>
-June 9, 2018&nbsp;·&nbsp;3 min&nbsp;·&nbsp;Anis Khan
+<div class=post-meta><span title="2018-06-09 00:00:00 +0000 UTC">June 9, 2018</span>&nbsp;·&nbsp;3 min&nbsp;·&nbsp;Anis Khan
 </div>
 </header>
-<div class=post-content>
-<p>December 2017, at work, I had to deploy a micro-service very very quickly to support the core service of ours. The framework I used for this one was <a href=https://github.com/sanic-org/sanic>Sanic</a>, (<em>a micro-framework written in Python 3.5 with Async support</em>). So, I get the python image first along with dependencies in a <code>requirements.txt</code> file. This is how it went:</p>
+<div class=post-content><p>December 2017, at work, I had to deploy a micro-service very very quickly to support the core service of ours. The framework I used for this one was <a href=https://github.com/sanic-org/sanic>Sanic</a>, (<em>a micro-framework written in Python 3.5 with Async support</em>). So, I get the python image first along with dependencies in a <code>requirements.txt</code> file. This is how it went:</p>
 <div class=highlight><pre tabindex=0 style=color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-Dockerfile data-lang=Dockerfile><span style=color:#fff;font-weight:700>FROM</span><span style=color:#0ff;font-weight:700> python:3.6</span><span style=color:red>
 </span><span style=color:red></span><span style=color:#fff;font-weight:700>ENV</span> PYTHONUNBUFFERED <span style=color:#ff0;font-weight:700>1</span><span style=color:red>
 </span><span style=color:red>
@@ -166,25 +163,25 @@ June 9, 2018&nbsp;·&nbsp;3 min&nbsp;·&nbsp;Anis Khan
 <a target=_blank rel="noopener noreferrer" aria-label="share How I reduced the size of a Docker image on telegram" href="https://telegram.me/share/url?text=How%20I%20reduced%20the%20size%20of%20a%20Docker%20image&url=https%3a%2f%2faniskhan001.me%2ftech%2fhow-i-reduced-the-size-of-a-docker-image%2f"><svg viewBox="2 2 28 28"><path d="M26.49 29.86H5.5a3.37 3.37.0 01-2.47-1 3.35 3.35.0 01-1-2.47V5.48A3.36 3.36.0 013 3 3.37 3.37.0 015.5 2h21A3.38 3.38.0 0129 3a3.36 3.36.0 011 2.46V26.37a3.35 3.35.0 01-1 2.47 3.38 3.38.0 01-2.51 1.02zm-5.38-6.71a.79.79.0 00.85-.66L24.73 9.24a.55.55.0 00-.18-.46.62.62.0 00-.41-.17q-.08.0-16.53 6.11a.59.59.0 00-.41.59.57.57.0 00.43.52l4 1.24 1.61 4.83a.62.62.0 00.63.43.56.56.0 00.4-.17L16.54 20l4.09 3A.9.9.0 0021.11 23.15zM13.8 20.71l-1.21-4q8.72-5.55 8.78-5.55c.15.0.23.0.23.16a.18.18.0 010 .06s-2.51 2.3-7.52 6.8z"/></svg>
 </a>
 </div>
-</footer>
-<div id=disqus_thread></div>
+</footer><div id=disqus_thread></div>
 <script type=application/javascript>var disqus_config=function(){};(function(){if(["localhost","127.0.0.1"].indexOf(window.location.hostname)!=-1){document.getElementById('disqus_thread').innerHTML='Disqus comments not available by default when the website is previewed locally.';return}var b=document,a=b.createElement('script');a.async=!0,a.src='//aniskhan001.disqus.com/embed.js',a.setAttribute('data-timestamp',+new Date),(b.head||b.body).appendChild(a)})()</script>
 <noscript>Please enable JavaScript to view the <a href=https://disqus.com/?ref_noscript>comments powered by Disqus.</a></noscript>
 <a href=https://disqus.com class=dsq-brlink>comments powered by <span class=logo-disqus>Disqus</span></a>
 </article>
-</main><footer class=footer>
-<span>&copy; 2021 <a href=https://aniskhan001.me/>Anis Khan</a></span>
-<span>&#183;</span>
-<span>Powered by <a href=https://gohugo.io/ rel="noopener noreferrer" target=_blank>Hugo</a></span>
-<span>& <a href=https://git.io/hugopapermod rel=noopener target=_blank>PaperMod</a></span>
+</main>
+<footer class=footer>
+<span>&copy; 2022 <a href=https://aniskhan001.me/>Anis Khan</a></span>
+<span>
+Powered by
+<a href=https://gohugo.io/ rel="noopener noreferrer" target=_blank>Hugo</a> &
+        <a href=https://git.io/hugopapermod rel=noopener target=_blank>PaperMod</a>
+</span>
 </footer>
-<a href=#top aria-label="go to top" title="Go to Top (Alt + G)">
-<button class=top-link id=top-link type=button accesskey=g><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentcolor"><path d="M12 6H0l6-6z"/></svg>
-</button>
+<a href=#top aria-label="go to top" title="Go to Top (Alt + G)" class=top-link id=top-link accesskey=g><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentcolor"><path d="M12 6H0l6-6z"/></svg>
 </a>
-<script defer src=/assets/js/highlight.min.7680afc38aa6b15ddf158a4f3780b7b1f7dde7e91d26f073e6229bb7a0793c92.js integrity="sha256-doCvw4qmsV3fFYpPN4C3sffd5+kdJvBz5iKbt6B5PJI=" onload=hljs.initHighlightingOnLoad()></script>
-<script>window.onload=function(){localStorage.getItem("menu-scroll-position")&&(document.getElementById('menu').scrollLeft=localStorage.getItem("menu-scroll-position"))};function menu_on_scroll(){localStorage.setItem("menu-scroll-position",document.getElementById('menu').scrollLeft)}document.querySelectorAll('a[href^="#"]').forEach(a=>{a.addEventListener("click",function(b){b.preventDefault();var a=this.getAttribute("href").substr(1);window.matchMedia('(prefers-reduced-motion: reduce)').matches?document.querySelector(`[id='${decodeURIComponent(a)}']`).scrollIntoView():document.querySelector(`[id='${decodeURIComponent(a)}']`).scrollIntoView({behavior:"smooth"}),a==="top"?history.replaceState(null,null," "):history.pushState(null,null,`#${a}`)})})</script>
+<script>let menu=document.getElementById('menu');menu&&(menu.scrollLeft=localStorage.getItem("menu-scroll-position"),menu.onscroll=function(){localStorage.setItem("menu-scroll-position",menu.scrollLeft)}),document.querySelectorAll('a[href^="#"]').forEach(a=>{a.addEventListener("click",function(b){b.preventDefault();var a=this.getAttribute("href").substr(1);window.matchMedia('(prefers-reduced-motion: reduce)').matches?document.querySelector(`[id='${decodeURIComponent(a)}']`).scrollIntoView():document.querySelector(`[id='${decodeURIComponent(a)}']`).scrollIntoView({behavior:"smooth"}),a==="top"?history.replaceState(null,null," "):history.pushState(null,null,`#${a}`)})})</script>
 <script>var mybutton=document.getElementById("top-link");window.onscroll=function(){document.body.scrollTop>800||document.documentElement.scrollTop>800?(mybutton.style.visibility="visible",mybutton.style.opacity="1"):(mybutton.style.visibility="hidden",mybutton.style.opacity="0")}</script>
 <script>document.getElementById("theme-toggle").addEventListener("click",()=>{document.body.className.includes("dark")?(document.body.classList.remove('dark'),localStorage.setItem("pref-theme",'light')):(document.body.classList.add('dark'),localStorage.setItem("pref-theme",'dark'))})</script>
+<script>document.querySelectorAll('pre > code').forEach(b=>{const c=b.parentNode.parentNode,a=document.createElement('button');a.classList.add('copy-code'),a.innerText='copy';function d(){a.innerText='copied!',setTimeout(()=>{a.innerText='copy'},2e3)}a.addEventListener('click',e=>{if('clipboard'in navigator){navigator.clipboard.writeText(b.textContent),d();return}const a=document.createRange();a.selectNodeContents(b);const c=window.getSelection();c.removeAllRanges(),c.addRange(a);try{document.execCommand('copy'),d()}catch(a){}c.removeRange(a)}),c.classList.contains("highlight")?c.appendChild(a):c.parentNode.firstChild==c||(b.parentNode.parentNode.parentNode.parentNode.parentNode.nodeName=="TABLE"?b.parentNode.parentNode.parentNode.parentNode.parentNode.appendChild(a):b.parentNode.appendChild(a))})</script>
 </body>
 </html>
