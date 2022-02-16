@@ -20,7 +20,7 @@ params:
     env: production # to enable google analytics, opengraph, twitter-cards and schema.
     title: Anis Khan
     description: "Enjoying life"
-    keywords: [Blog, Tech, Life, PaperMod]
+    keywords: [Blog, Tech, Life, Anis Khan]
     author: Anis Khan
     images: ["<link or path of image for opengraph, twitter-cards>"]
     DateFormat: "January 2, 2006"
@@ -82,13 +82,17 @@ params:
         - name: steam
           url: "https://steamcommunity.com/id/aniskhan001"
 
-    analytics:
-        google:
-            SiteVerificationTag: "XYZabc"
-        bing:
-            SiteVerificationTag: "XYZabc"
-        yandex:
-            SiteVerificationTag: "XYZabc"
+    # analytics:
+    #     google:
+    #         SiteVerificationTag: "XYZabc"
+    #     bing:
+    #         SiteVerificationTag: "XYZabc"
+    #     yandex:
+    #         SiteVerificationTag: "XYZabc"
+
+    adSense:
+        client: "ca-pub-3767738905492647"
+        inArticleSlot: "5298522589"
 
     cover:
         hidden: true # hide everywhere but not in structured data
