@@ -42,7 +42,25 @@
     <lastmod>2020-04-15T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://aniskhan001.me/tags/continuous-delivery/</loc>
-    <lastmod>2018-07-30T00:00:00+00:00</lastmod>
+    <lastmod>2020-01-14T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://aniskhan001.me/tags/continuous-integration/</loc>
+    <lastmod>2020-01-14T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://aniskhan001.me/tags/devops/</loc>
+    <lastmod>2020-01-14T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://aniskhan001.me/tags/docker/</loc>
+    <lastmod>2020-01-14T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://aniskhan001.me/tags/go/</loc>
+    <lastmod>2020-01-14T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://aniskhan001.me/tags/python/</loc>
+    <lastmod>2020-01-14T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://aniskhan001.me/tech/speed-up-docker-build-ci-environment/</loc>
+    <lastmod>2020-01-14T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://aniskhan001.me/tech/easy-continuous-delivery-for-meteor-app-with-gitlab-heroku/</loc>
     <lastmod>2018-07-30T00:00:00+00:00</lastmod>
@@ -56,13 +74,7 @@
     <loc>https://aniskhan001.me/tags/meteor/</loc>
     <lastmod>2018-07-30T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://aniskhan001.me/tags/docker/</loc>
-    <lastmod>2018-06-09T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://aniskhan001.me/tech/how-i-reduced-the-size-of-a-docker-image/</loc>
-    <lastmod>2018-06-09T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://aniskhan001.me/tags/python/</loc>
     <lastmod>2018-06-09T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://aniskhan001.me/tags/sanic/</loc>
