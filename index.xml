@@ -75,5 +75,6 @@
 FROMpython:3.6ENV PYTHONUNBUFFERED 1ENV TZ=Asia/DhakaRUN ln -snf /usr/share/zoneinfo/$TZ /etc/localtime &amp;amp;&amp;amp; echo $TZ &amp;gt; /etc/timezoneRUN mkdir /appADD requirements.</description>
     </item>
     
+    
   </channel>
 </rss>
