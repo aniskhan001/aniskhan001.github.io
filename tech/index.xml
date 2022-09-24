@@ -9,9 +9,27 @@
       <link>https://aniskhan001.me/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Wed, 15 Apr 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://aniskhan001.me/tech/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 24 Sep 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://aniskhan001.me/tech/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Logging with Fluent Bit &amp; InfluxDB</title>
+      <title>DevOps vs Programming 🤔</title>
+      <link>https://aniskhan001.me/tech/devops-vs-programming/</link>
+      <pubDate>Sat, 24 Sep 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://aniskhan001.me/tech/devops-vs-programming/</guid>
+      <description>DevOps Engineer হতে গেলে প্রোগ্রামিং/কোডিং জানা লাগে? 🇧🇩</description>
+    </item>
+    
+    <item>
+      <title>OOP থেকে কি শিখলাম? 🎯</title>
+      <link>https://aniskhan001.me/tech/oop-%E0%A6%A5%E0%A7%87%E0%A6%95%E0%A7%87-%E0%A6%95%E0%A6%BF-%E0%A6%B6%E0%A6%BF%E0%A6%96%E0%A6%B2%E0%A6%BE%E0%A6%AE/</link>
+      <pubDate>Sat, 09 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://aniskhan001.me/tech/oop-%E0%A6%A5%E0%A7%87%E0%A6%95%E0%A7%87-%E0%A6%95%E0%A6%BF-%E0%A6%B6%E0%A6%BF%E0%A6%96%E0%A6%B2%E0%A6%BE%E0%A6%AE/</guid>
+      <description>You might think the world is object-oriented. But it&amp;#39;s not! 🇧🇩</description>
+    </item>
+    
+    <item>
+      <title>Logging with Fluent Bit &amp; InfluxDB 🪵</title>
       <link>https://aniskhan001.me/tech/logging-with-fluent-bit-influxdb-fig/</link>
       <pubDate>Wed, 15 Apr 2020 00:00:00 +0000</pubDate>
       
@@ -20,7 +38,7 @@
     </item>
     
     <item>
-      <title>Speed up Docker build in CI environment</title>
+      <title>Speed up Docker build in CI environment 🏎</title>
       <link>https://aniskhan001.me/tech/speed-up-docker-build-ci-environment/</link>
       <pubDate>Tue, 14 Jan 2020 00:00:00 +0000</pubDate>
       

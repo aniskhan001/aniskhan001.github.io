@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>programming on Anis Khan</title>
+    <link>https://aniskhan001.me/tags/programming/</link>
+    <description>Recent content in programming on Anis Khan</description>
+    <image>
+      <url>https://aniskhan001.me/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://aniskhan001.me/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Sat, 24 Sep 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://aniskhan001.me/tags/programming/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>DevOps vs Programming 🤔</title>
+      <link>https://aniskhan001.me/tech/devops-vs-programming/</link>
+      <pubDate>Sat, 24 Sep 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://aniskhan001.me/tech/devops-vs-programming/</guid>
+      <description>DevOps Engineer হতে গেলে প্রোগ্রামিং/কোডিং জানা লাগে? 🇧🇩</description>
+    </item>
+    
+  </channel>
+</rss>

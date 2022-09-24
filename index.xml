@@ -9,7 +9,16 @@
       <link>https://aniskhan001.me/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Thu, 25 Nov 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://aniskhan001.me/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 24 Sep 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://aniskhan001.me/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>DevOps vs Programming 🤔</title>
+      <link>https://aniskhan001.me/tech/devops-vs-programming/</link>
+      <pubDate>Sat, 24 Sep 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://aniskhan001.me/tech/devops-vs-programming/</guid>
+      <description>DevOps Engineer হতে গেলে প্রোগ্রামিং/কোডিং জানা লাগে? 🇧🇩</description>
+    </item>
+    
     <item>
       <title>জব নিয়ে কিভাবে বিদেশে যাওয়া যায়?</title>
       <link>https://aniskhan001.me/life/%E0%A6%9C%E0%A6%AC-%E0%A6%A8%E0%A6%BF%E0%A6%AF%E0%A6%BC%E0%A7%87-%E0%A6%95%E0%A6%BF%E0%A6%AD%E0%A6%BE%E0%A6%AC%E0%A7%87-%E0%A6%AC%E0%A6%BF%E0%A6%A6%E0%A7%87%E0%A6%B6%E0%A7%87-%E0%A6%AF%E0%A6%BE%E0%A6%93%E0%A6%AF%E0%A6%BC%E0%A6%BE-%E0%A6%AF%E0%A6%BE%E0%A6%AF%E0%A6%BC-%E0%A6%AA%E0%A6%B0%E0%A7%8D%E0%A6%AC-%E0%A7%A8/</link>
@@ -38,7 +47,16 @@
     </item>
     
     <item>
-      <title>Logging with Fluent Bit &amp; InfluxDB</title>
+      <title>OOP থেকে কি শিখলাম? 🎯</title>
+      <link>https://aniskhan001.me/tech/oop-%E0%A6%A5%E0%A7%87%E0%A6%95%E0%A7%87-%E0%A6%95%E0%A6%BF-%E0%A6%B6%E0%A6%BF%E0%A6%96%E0%A6%B2%E0%A6%BE%E0%A6%AE/</link>
+      <pubDate>Sat, 09 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://aniskhan001.me/tech/oop-%E0%A6%A5%E0%A7%87%E0%A6%95%E0%A7%87-%E0%A6%95%E0%A6%BF-%E0%A6%B6%E0%A6%BF%E0%A6%96%E0%A6%B2%E0%A6%BE%E0%A6%AE/</guid>
+      <description>You might think the world is object-oriented. But it&amp;#39;s not! 🇧🇩</description>
+    </item>
+    
+    <item>
+      <title>Logging with Fluent Bit &amp; InfluxDB 🪵</title>
       <link>https://aniskhan001.me/tech/logging-with-fluent-bit-influxdb-fig/</link>
       <pubDate>Wed, 15 Apr 2020 00:00:00 +0000</pubDate>
       
@@ -47,7 +65,7 @@
     </item>
     
     <item>
-      <title>Speed up Docker build in CI environment</title>
+      <title>Speed up Docker build in CI environment 🏎</title>
       <link>https://aniskhan001.me/tech/speed-up-docker-build-ci-environment/</link>
       <pubDate>Tue, 14 Jan 2020 00:00:00 +0000</pubDate>
       
@@ -75,6 +93,15 @@
 FROMpython:3.6ENV PYTHONUNBUFFERED 1ENV TZ=Asia/DhakaRUN ln -snf /usr/share/zoneinfo/$TZ /etc/localtime &amp;amp;&amp;amp; echo $TZ &amp;gt; /etc/timezoneRUN mkdir /appADD requirements.</description>
     </item>
     
+    
+    <item>
+      <title>প্রোগ্রামিং কন্টেস্ট কি বাচ্চারাই করে?</title>
+      <link>https://aniskhan001.me/life/%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A7%8B%E0%A6%97%E0%A7%8D%E0%A6%B0%E0%A6%BE%E0%A6%AE%E0%A6%BF%E0%A6%82-%E0%A6%95%E0%A6%A8%E0%A7%8D%E0%A6%9F%E0%A7%87%E0%A6%B8%E0%A7%8D%E0%A6%9F-%E0%A6%AC%E0%A6%BE%E0%A6%9A%E0%A7%8D%E0%A6%9A%E0%A6%BE%E0%A6%B0%E0%A6%BE-%E0%A6%95%E0%A6%B0%E0%A7%87/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://aniskhan001.me/life/%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A7%8B%E0%A6%97%E0%A7%8D%E0%A6%B0%E0%A6%BE%E0%A6%AE%E0%A6%BF%E0%A6%82-%E0%A6%95%E0%A6%A8%E0%A7%8D%E0%A6%9F%E0%A7%87%E0%A6%B8%E0%A7%8D%E0%A6%9F-%E0%A6%AC%E0%A6%BE%E0%A6%9A%E0%A7%8D%E0%A6%9A%E0%A6%BE%E0%A6%B0%E0%A6%BE-%E0%A6%95%E0%A6%B0%E0%A7%87/</guid>
+      <description>ছক্কা মেরে মক্কা!</description>
+    </item>
     
   </channel>
 </rss>
