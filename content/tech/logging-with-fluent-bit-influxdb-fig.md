@@ -1,5 +1,5 @@
 ---
-title: "Logging with Fluent Bit & InfluxDB"
+title: "Logging with Fluent Bit & InfluxDB 🪵"
 date: 2020-04-15
 tags: ["logging", "fluent-bit", "influxdb", "kubernetes"]
 # showToc: true

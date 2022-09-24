@@ -1,5 +1,5 @@
 ---
-title: "Speed up Docker build in CI environment"
+title: "Speed up Docker build in CI environment 🏎"
 date: 2020-01-14
 tags: ["docker", "devops", "python", "go", "continuous-delivery", "continuous-integration"]
 # showToc: true
