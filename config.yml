@@ -69,8 +69,6 @@ params:
               url: tech
 
     socialIcons:
-        - name: twitter
-          url: "https://twitter.com/aniskhan001"
         - name: github
           url: "https://github.com/aniskhan001"
         - name: youtube
@@ -81,6 +79,8 @@ params:
           url: "https://stackoverflow.com/users/1712600/aniskhan001"
         - name: steam
           url: "https://steamcommunity.com/id/aniskhan001"
+        - name: resume
+          url: "/resume-anis-khan.pdf"
 
     # analytics:
     #     google:
