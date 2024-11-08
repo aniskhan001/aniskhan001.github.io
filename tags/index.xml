@@ -9,196 +9,156 @@
       <url>https://aniskhan001.me/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
       <link>https://aniskhan001.me/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
-    <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sat, 24 Sep 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://aniskhan001.me/tags/index.xml" rel="self" type="application/rss+xml" />
+    <generator>Hugo -- 0.138.0</generator>
+    <language>en</language>
+    <lastBuildDate>Sat, 24 Sep 2022 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://aniskhan001.me/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>devops</title>
+      <title>Devops</title>
       <link>https://aniskhan001.me/tags/devops/</link>
       <pubDate>Sat, 24 Sep 2022 00:00:00 +0000</pubDate>
-      
       <guid>https://aniskhan001.me/tags/devops/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>programming</title>
+      <title>Programming</title>
       <link>https://aniskhan001.me/tags/programming/</link>
       <pubDate>Sat, 24 Sep 2022 00:00:00 +0000</pubDate>
-      
       <guid>https://aniskhan001.me/tags/programming/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>abroadlife</title>
+      <title>Abroadlife</title>
       <link>https://aniskhan001.me/tags/abroadlife/</link>
       <pubDate>Thu, 25 Nov 2021 00:00:00 +0000</pubDate>
-      
       <guid>https://aniskhan001.me/tags/abroadlife/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>jobinabroad</title>
+      <title>Jobinabroad</title>
       <link>https://aniskhan001.me/tags/jobinabroad/</link>
       <pubDate>Thu, 25 Nov 2021 00:00:00 +0000</pubDate>
-      
       <guid>https://aniskhan001.me/tags/jobinabroad/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>oop</title>
+      <title>Oop</title>
       <link>https://aniskhan001.me/tags/oop/</link>
       <pubDate>Sat, 09 May 2020 00:00:00 +0000</pubDate>
-      
       <guid>https://aniskhan001.me/tags/oop/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>solid</title>
+      <title>Solid</title>
       <link>https://aniskhan001.me/tags/solid/</link>
       <pubDate>Sat, 09 May 2020 00:00:00 +0000</pubDate>
-      
       <guid>https://aniskhan001.me/tags/solid/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>fluent-bit</title>
+      <title>Fluent-Bit</title>
       <link>https://aniskhan001.me/tags/fluent-bit/</link>
       <pubDate>Wed, 15 Apr 2020 00:00:00 +0000</pubDate>
-      
       <guid>https://aniskhan001.me/tags/fluent-bit/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>influxdb</title>
+      <title>Influxdb</title>
       <link>https://aniskhan001.me/tags/influxdb/</link>
       <pubDate>Wed, 15 Apr 2020 00:00:00 +0000</pubDate>
-      
       <guid>https://aniskhan001.me/tags/influxdb/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>kubernetes</title>
+      <title>Kubernetes</title>
       <link>https://aniskhan001.me/tags/kubernetes/</link>
       <pubDate>Wed, 15 Apr 2020 00:00:00 +0000</pubDate>
-      
       <guid>https://aniskhan001.me/tags/kubernetes/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>logging</title>
+      <title>Logging</title>
       <link>https://aniskhan001.me/tags/logging/</link>
       <pubDate>Wed, 15 Apr 2020 00:00:00 +0000</pubDate>
-      
       <guid>https://aniskhan001.me/tags/logging/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>continuous-delivery</title>
+      <title>Continuous-Delivery</title>
       <link>https://aniskhan001.me/tags/continuous-delivery/</link>
       <pubDate>Tue, 14 Jan 2020 00:00:00 +0000</pubDate>
-      
       <guid>https://aniskhan001.me/tags/continuous-delivery/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>continuous-integration</title>
+      <title>Continuous-Integration</title>
       <link>https://aniskhan001.me/tags/continuous-integration/</link>
       <pubDate>Tue, 14 Jan 2020 00:00:00 +0000</pubDate>
-      
       <guid>https://aniskhan001.me/tags/continuous-integration/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>docker</title>
+      <title>Docker</title>
       <link>https://aniskhan001.me/tags/docker/</link>
       <pubDate>Tue, 14 Jan 2020 00:00:00 +0000</pubDate>
-      
       <guid>https://aniskhan001.me/tags/docker/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>go</title>
+      <title>Go</title>
       <link>https://aniskhan001.me/tags/go/</link>
       <pubDate>Tue, 14 Jan 2020 00:00:00 +0000</pubDate>
-      
       <guid>https://aniskhan001.me/tags/go/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>python</title>
+      <title>Python</title>
       <link>https://aniskhan001.me/tags/python/</link>
       <pubDate>Tue, 14 Jan 2020 00:00:00 +0000</pubDate>
-      
       <guid>https://aniskhan001.me/tags/python/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>gitlab</title>
+      <title>Gitlab</title>
       <link>https://aniskhan001.me/tags/gitlab/</link>
       <pubDate>Mon, 30 Jul 2018 00:00:00 +0000</pubDate>
-      
       <guid>https://aniskhan001.me/tags/gitlab/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>heroku</title>
+      <title>Heroku</title>
       <link>https://aniskhan001.me/tags/heroku/</link>
       <pubDate>Mon, 30 Jul 2018 00:00:00 +0000</pubDate>
-      
       <guid>https://aniskhan001.me/tags/heroku/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>meteor</title>
+      <title>Meteor</title>
       <link>https://aniskhan001.me/tags/meteor/</link>
       <pubDate>Mon, 30 Jul 2018 00:00:00 +0000</pubDate>
-      
       <guid>https://aniskhan001.me/tags/meteor/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>sanic</title>
+      <title>Sanic</title>
       <link>https://aniskhan001.me/tags/sanic/</link>
       <pubDate>Sat, 09 Jun 2018 00:00:00 +0000</pubDate>
-      
       <guid>https://aniskhan001.me/tags/sanic/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>programmingcontest</title>
+      <title>Programmingcontest</title>
       <link>https://aniskhan001.me/tags/programmingcontest/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://aniskhan001.me/tags/programmingcontest/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>sportprogramming</title>
+      <title>Sportprogramming</title>
       <link>https://aniskhan001.me/tags/sportprogramming/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://aniskhan001.me/tags/sportprogramming/</guid>
       <description></description>
     </item>
-    
   </channel>
 </rss>

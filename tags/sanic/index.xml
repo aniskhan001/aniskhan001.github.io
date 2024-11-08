@@ -1,25 +1,37 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>sanic on Anis Khan</title>
+    <title>Sanic on Anis Khan</title>
     <link>https://aniskhan001.me/tags/sanic/</link>
-    <description>Recent content in sanic on Anis Khan</description>
+    <description>Recent content in Sanic on Anis Khan</description>
     <image>
       <title>Anis Khan</title>
       <url>https://aniskhan001.me/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
       <link>https://aniskhan001.me/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
-    <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sat, 09 Jun 2018 00:00:00 +0000</lastBuildDate><atom:link href="https://aniskhan001.me/tags/sanic/index.xml" rel="self" type="application/rss+xml" />
+    <generator>Hugo -- 0.138.0</generator>
+    <language>en</language>
+    <lastBuildDate>Sat, 09 Jun 2018 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://aniskhan001.me/tags/sanic/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>How I reduced the size of a Docker image</title>
       <link>https://aniskhan001.me/tech/how-i-reduced-the-size-of-a-docker-image/</link>
       <pubDate>Sat, 09 Jun 2018 00:00:00 +0000</pubDate>
-      
       <guid>https://aniskhan001.me/tech/how-i-reduced-the-size-of-a-docker-image/</guid>
-      <description>December 2017, at work, I had to deploy a micro-service very very quickly to support the core service of ours. The framework I used for this one was Sanic, (a micro-framework written in Python 3.5 with Async support). So, I get the python image first along with dependencies in a requirements.txt file. This is how it went:
-FROMpython:3.6ENV PYTHONUNBUFFERED 1ENV TZ=Asia/DhakaRUN ln -snf /usr/share/zoneinfo/$TZ /etc/localtime &amp;amp;&amp;amp; echo $TZ &amp;gt; /etc/timezoneRUN mkdir /appADD requirements.</description>
+      <description>&lt;p&gt;December 2017, at work, I had to deploy a micro-service very very quickly to support the core service of ours. The framework I used for this one was &lt;a href=&#34;https://github.com/sanic-org/sanic&#34;&gt;Sanic&lt;/a&gt;, (&lt;em&gt;a micro-framework written in Python 3.5 with Async support&lt;/em&gt;). So, I get the python image first along with dependencies in a &lt;code&gt;requirements.txt&lt;/code&gt; file. This is how it went:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-Dockerfile&#34; data-lang=&#34;Dockerfile&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#fff;font-weight:bold&#34;&gt;FROM&lt;/span&gt;&lt;span style=&#34;color:#0ff;font-weight:bold&#34;&gt; python:3.6&lt;/span&gt;&lt;span style=&#34;color:#f00&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f00&#34;&gt;&lt;/span&gt;&lt;span style=&#34;color:#fff;font-weight:bold&#34;&gt;ENV&lt;/span&gt; PYTHONUNBUFFERED &lt;span style=&#34;color:#ff0;font-weight:bold&#34;&gt;1&lt;/span&gt;&lt;span style=&#34;color:#f00&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f00&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f00&#34;&gt;&lt;/span&gt;&lt;span style=&#34;color:#fff;font-weight:bold&#34;&gt;ENV&lt;/span&gt; TZ=Asia/Dhaka&lt;span style=&#34;color:#f00&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f00&#34;&gt;&lt;/span&gt;&lt;span style=&#34;color:#fff;font-weight:bold&#34;&gt;RUN&lt;/span&gt; ln -snf /usr/share/zoneinfo/$TZ /etc/localtime &amp;amp;&amp;amp; &lt;span style=&#34;color:#fff;font-weight:bold&#34;&gt;echo&lt;/span&gt; $TZ &amp;gt; /etc/timezone&lt;span style=&#34;color:#f00&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f00&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f00&#34;&gt;&lt;/span&gt;&lt;span style=&#34;color:#fff;font-weight:bold&#34;&gt;RUN&lt;/span&gt; mkdir /app&lt;span style=&#34;color:#f00&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f00&#34;&gt;&lt;/span&gt;&lt;span style=&#34;color:#fff;font-weight:bold&#34;&gt;ADD&lt;/span&gt; requirements.txt ./app/&lt;span style=&#34;color:#f00&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f00&#34;&gt;&lt;/span&gt;&lt;span style=&#34;color:#fff;font-weight:bold&#34;&gt;WORKDIR&lt;/span&gt;&lt;span style=&#34;color:#0ff;font-weight:bold&#34;&gt; /app&lt;/span&gt;&lt;span style=&#34;color:#f00&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f00&#34;&gt;&lt;/span&gt;&lt;span style=&#34;color:#fff;font-weight:bold&#34;&gt;RUN&lt;/span&gt; pip install -r requirements.txt&lt;span style=&#34;color:#f00&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f00&#34;&gt;&lt;/span&gt;&lt;span style=&#34;color:#fff;font-weight:bold&#34;&gt;COPY&lt;/span&gt; ./code ./app&lt;span style=&#34;color:#f00&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f00&#34;&gt;&lt;/span&gt;&lt;span style=&#34;color:#fff;font-weight:bold&#34;&gt;EXPOSE&lt;/span&gt;&lt;span style=&#34;color:#0ff;font-weight:bold&#34;&gt; 5000&lt;/span&gt;&lt;span style=&#34;color:#f00&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;After building this Dockerfile, the size of the image was &lt;strong&gt;780 MB!&lt;/strong&gt;&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

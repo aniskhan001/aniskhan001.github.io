@@ -1,25 +1,28 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>continuous-integration on Anis Khan</title>
+    <title>Continuous-Integration on Anis Khan</title>
     <link>https://aniskhan001.me/tags/continuous-integration/</link>
-    <description>Recent content in continuous-integration on Anis Khan</description>
+    <description>Recent content in Continuous-Integration on Anis Khan</description>
     <image>
       <title>Anis Khan</title>
       <url>https://aniskhan001.me/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
       <link>https://aniskhan001.me/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
-    <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Tue, 14 Jan 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://aniskhan001.me/tags/continuous-integration/index.xml" rel="self" type="application/rss+xml" />
+    <generator>Hugo -- 0.138.0</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 14 Jan 2020 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://aniskhan001.me/tags/continuous-integration/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Speed up Docker build in CI environment 🏎</title>
       <link>https://aniskhan001.me/tech/speed-up-docker-build-ci-environment/</link>
       <pubDate>Tue, 14 Jan 2020 00:00:00 +0000</pubDate>
-      
       <guid>https://aniskhan001.me/tech/speed-up-docker-build-ci-environment/</guid>
-      <description>&amp;quot;If you&amp;rsquo;re building Docker images on your laptop for tagging release, be in shame, and then change your behavior&amp;quot; - Kelsey Hightower, 2018
- That&amp;rsquo;s right! If you are building Docker images in your local machine, you are doing it wrong. We don&amp;rsquo;t want to build anything on our laptop. When we are tagging a new release for production, staging, or even for a dev environment, the build should trigger automatically to save time and avoid the hassle.</description>
+      <description>&lt;!-- raw HTML omitted --&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;a href=&#34;https://youtu.be/kOa_llowQ1c?t=500&#34;&gt;&amp;quot;&lt;em&gt;If you&amp;rsquo;re building Docker images on your laptop for tagging release, be in shame, and then change your behavior&lt;/em&gt;&amp;quot;&lt;/a&gt; - Kelsey Hightower, 2018&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;That&amp;rsquo;s right! If you are building Docker images in your local machine, you are doing it wrong. We don&amp;rsquo;t want to build anything on our laptop. When we are tagging a new release for production, staging, or even for a dev environment, the build should trigger automatically to save time and avoid the hassle. But Docker builds in a CI environment might not be faster than our local machine if we don&amp;rsquo;t configure it properly. In this write-up, I&amp;rsquo;ll try to share my experience on how I achieved more speed building Docker images in a CI environment.&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

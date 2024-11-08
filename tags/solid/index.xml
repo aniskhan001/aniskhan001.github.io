@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>solid on Anis Khan</title>
+    <title>Solid on Anis Khan</title>
     <link>https://aniskhan001.me/tags/solid/</link>
-    <description>Recent content in solid on Anis Khan</description>
+    <description>Recent content in Solid on Anis Khan</description>
     <image>
       <title>Anis Khan</title>
       <url>https://aniskhan001.me/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
       <link>https://aniskhan001.me/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
-    <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sat, 09 May 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://aniskhan001.me/tags/solid/index.xml" rel="self" type="application/rss+xml" />
+    <generator>Hugo -- 0.138.0</generator>
+    <language>en</language>
+    <lastBuildDate>Sat, 09 May 2020 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://aniskhan001.me/tags/solid/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>OOP থেকে কি শিখলাম? 🎯</title>
       <link>https://aniskhan001.me/tech/oop-%E0%A6%A5%E0%A7%87%E0%A6%95%E0%A7%87-%E0%A6%95%E0%A6%BF-%E0%A6%B6%E0%A6%BF%E0%A6%96%E0%A6%B2%E0%A6%BE%E0%A6%AE/</link>
       <pubDate>Sat, 09 May 2020 00:00:00 +0000</pubDate>
-      
       <guid>https://aniskhan001.me/tech/oop-%E0%A6%A5%E0%A7%87%E0%A6%95%E0%A7%87-%E0%A6%95%E0%A6%BF-%E0%A6%B6%E0%A6%BF%E0%A6%96%E0%A6%B2%E0%A6%BE%E0%A6%AE/</guid>
       <description>You might think the world is object-oriented. But it&amp;#39;s not! 🇧🇩</description>
     </item>
-    
   </channel>
 </rss>

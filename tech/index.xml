@@ -9,63 +9,69 @@
       <url>https://aniskhan001.me/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
       <link>https://aniskhan001.me/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
-    <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sat, 24 Sep 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://aniskhan001.me/tech/index.xml" rel="self" type="application/rss+xml" />
+    <generator>Hugo -- 0.138.0</generator>
+    <language>en</language>
+    <lastBuildDate>Sat, 24 Sep 2022 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://aniskhan001.me/tech/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>DevOps vs Programming 🤔</title>
       <link>https://aniskhan001.me/tech/devops-vs-programming/</link>
       <pubDate>Sat, 24 Sep 2022 00:00:00 +0000</pubDate>
-      
       <guid>https://aniskhan001.me/tech/devops-vs-programming/</guid>
       <description>DevOps Engineer হতে গেলে প্রোগ্রামিং/কোডিং জানা লাগে? 🇧🇩</description>
     </item>
-    
     <item>
       <title>OOP থেকে কি শিখলাম? 🎯</title>
       <link>https://aniskhan001.me/tech/oop-%E0%A6%A5%E0%A7%87%E0%A6%95%E0%A7%87-%E0%A6%95%E0%A6%BF-%E0%A6%B6%E0%A6%BF%E0%A6%96%E0%A6%B2%E0%A6%BE%E0%A6%AE/</link>
       <pubDate>Sat, 09 May 2020 00:00:00 +0000</pubDate>
-      
       <guid>https://aniskhan001.me/tech/oop-%E0%A6%A5%E0%A7%87%E0%A6%95%E0%A7%87-%E0%A6%95%E0%A6%BF-%E0%A6%B6%E0%A6%BF%E0%A6%96%E0%A6%B2%E0%A6%BE%E0%A6%AE/</guid>
       <description>You might think the world is object-oriented. But it&amp;#39;s not! 🇧🇩</description>
     </item>
-    
     <item>
       <title>Logging with Fluent Bit &amp; InfluxDB 🪵</title>
       <link>https://aniskhan001.me/tech/logging-with-fluent-bit-influxdb-fig/</link>
       <pubDate>Wed, 15 Apr 2020 00:00:00 +0000</pubDate>
-      
       <guid>https://aniskhan001.me/tech/logging-with-fluent-bit-influxdb-fig/</guid>
       <description>Minimal Logging Architecture in Kubernetes with Grafana</description>
     </item>
-    
     <item>
       <title>Speed up Docker build in CI environment 🏎</title>
       <link>https://aniskhan001.me/tech/speed-up-docker-build-ci-environment/</link>
       <pubDate>Tue, 14 Jan 2020 00:00:00 +0000</pubDate>
-      
       <guid>https://aniskhan001.me/tech/speed-up-docker-build-ci-environment/</guid>
-      <description>&amp;quot;If you&amp;rsquo;re building Docker images on your laptop for tagging release, be in shame, and then change your behavior&amp;quot; - Kelsey Hightower, 2018
- That&amp;rsquo;s right! If you are building Docker images in your local machine, you are doing it wrong. We don&amp;rsquo;t want to build anything on our laptop. When we are tagging a new release for production, staging, or even for a dev environment, the build should trigger automatically to save time and avoid the hassle.</description>
+      <description>&lt;!-- raw HTML omitted --&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;a href=&#34;https://youtu.be/kOa_llowQ1c?t=500&#34;&gt;&amp;quot;&lt;em&gt;If you&amp;rsquo;re building Docker images on your laptop for tagging release, be in shame, and then change your behavior&lt;/em&gt;&amp;quot;&lt;/a&gt; - Kelsey Hightower, 2018&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;That&amp;rsquo;s right! If you are building Docker images in your local machine, you are doing it wrong. We don&amp;rsquo;t want to build anything on our laptop. When we are tagging a new release for production, staging, or even for a dev environment, the build should trigger automatically to save time and avoid the hassle. But Docker builds in a CI environment might not be faster than our local machine if we don&amp;rsquo;t configure it properly. In this write-up, I&amp;rsquo;ll try to share my experience on how I achieved more speed building Docker images in a CI environment.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Easy Continuous Delivery for Meteor app with GitLab &#43; Heroku</title>
       <link>https://aniskhan001.me/tech/easy-continuous-delivery-for-meteor-app-with-gitlab-heroku/</link>
       <pubDate>Mon, 30 Jul 2018 00:00:00 +0000</pubDate>
-      
       <guid>https://aniskhan001.me/tech/easy-continuous-delivery-for-meteor-app-with-gitlab-heroku/</guid>
-      <description>Motivation 🌌 🌠 Recently I worked on a MeteorJS project. The live version of the app is hosted on Galaxy and there was no staging environment for this one. So we needed to deploy another instance of this app in a staging environment. The codebase was hosted on GitLab and we have a shared cluster of MongoDB in mLab. While we wanted to run the staging environment efficiently, we also wanted to make sure the deployment is as cost-effective as we can.</description>
+      <description>&lt;h2 id=&#34;motivation--&#34;&gt;Motivation 🌌 🌠&lt;/h2&gt;
+&lt;p&gt;Recently I worked on a MeteorJS project. The live version of the app is hosted on &lt;a href=&#34;https://www.meteor.com/hosting&#34;&gt;Galaxy&lt;/a&gt; and there was no staging environment for this one. So we needed to deploy another instance of this app in a staging environment. The codebase was hosted on GitLab and we have a shared cluster of MongoDB in mLab. While we wanted to run the staging environment efficiently, we also wanted to make sure the deployment is as cost-effective as we can.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>How I reduced the size of a Docker image</title>
       <link>https://aniskhan001.me/tech/how-i-reduced-the-size-of-a-docker-image/</link>
       <pubDate>Sat, 09 Jun 2018 00:00:00 +0000</pubDate>
-      
       <guid>https://aniskhan001.me/tech/how-i-reduced-the-size-of-a-docker-image/</guid>
-      <description>December 2017, at work, I had to deploy a micro-service very very quickly to support the core service of ours. The framework I used for this one was Sanic, (a micro-framework written in Python 3.5 with Async support). So, I get the python image first along with dependencies in a requirements.txt file. This is how it went:
-FROMpython:3.6ENV PYTHONUNBUFFERED 1ENV TZ=Asia/DhakaRUN ln -snf /usr/share/zoneinfo/$TZ /etc/localtime &amp;amp;&amp;amp; echo $TZ &amp;gt; /etc/timezoneRUN mkdir /appADD requirements.</description>
+      <description>&lt;p&gt;December 2017, at work, I had to deploy a micro-service very very quickly to support the core service of ours. The framework I used for this one was &lt;a href=&#34;https://github.com/sanic-org/sanic&#34;&gt;Sanic&lt;/a&gt;, (&lt;em&gt;a micro-framework written in Python 3.5 with Async support&lt;/em&gt;). So, I get the python image first along with dependencies in a &lt;code&gt;requirements.txt&lt;/code&gt; file. This is how it went:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-Dockerfile&#34; data-lang=&#34;Dockerfile&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#fff;font-weight:bold&#34;&gt;FROM&lt;/span&gt;&lt;span style=&#34;color:#0ff;font-weight:bold&#34;&gt; python:3.6&lt;/span&gt;&lt;span style=&#34;color:#f00&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f00&#34;&gt;&lt;/span&gt;&lt;span style=&#34;color:#fff;font-weight:bold&#34;&gt;ENV&lt;/span&gt; PYTHONUNBUFFERED &lt;span style=&#34;color:#ff0;font-weight:bold&#34;&gt;1&lt;/span&gt;&lt;span style=&#34;color:#f00&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f00&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f00&#34;&gt;&lt;/span&gt;&lt;span style=&#34;color:#fff;font-weight:bold&#34;&gt;ENV&lt;/span&gt; TZ=Asia/Dhaka&lt;span style=&#34;color:#f00&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f00&#34;&gt;&lt;/span&gt;&lt;span style=&#34;color:#fff;font-weight:bold&#34;&gt;RUN&lt;/span&gt; ln -snf /usr/share/zoneinfo/$TZ /etc/localtime &amp;amp;&amp;amp; &lt;span style=&#34;color:#fff;font-weight:bold&#34;&gt;echo&lt;/span&gt; $TZ &amp;gt; /etc/timezone&lt;span style=&#34;color:#f00&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f00&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f00&#34;&gt;&lt;/span&gt;&lt;span style=&#34;color:#fff;font-weight:bold&#34;&gt;RUN&lt;/span&gt; mkdir /app&lt;span style=&#34;color:#f00&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f00&#34;&gt;&lt;/span&gt;&lt;span style=&#34;color:#fff;font-weight:bold&#34;&gt;ADD&lt;/span&gt; requirements.txt ./app/&lt;span style=&#34;color:#f00&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f00&#34;&gt;&lt;/span&gt;&lt;span style=&#34;color:#fff;font-weight:bold&#34;&gt;WORKDIR&lt;/span&gt;&lt;span style=&#34;color:#0ff;font-weight:bold&#34;&gt; /app&lt;/span&gt;&lt;span style=&#34;color:#f00&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f00&#34;&gt;&lt;/span&gt;&lt;span style=&#34;color:#fff;font-weight:bold&#34;&gt;RUN&lt;/span&gt; pip install -r requirements.txt&lt;span style=&#34;color:#f00&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f00&#34;&gt;&lt;/span&gt;&lt;span style=&#34;color:#fff;font-weight:bold&#34;&gt;COPY&lt;/span&gt; ./code ./app&lt;span style=&#34;color:#f00&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f00&#34;&gt;&lt;/span&gt;&lt;span style=&#34;color:#fff;font-weight:bold&#34;&gt;EXPOSE&lt;/span&gt;&lt;span style=&#34;color:#0ff;font-weight:bold&#34;&gt; 5000&lt;/span&gt;&lt;span style=&#34;color:#f00&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;After building this Dockerfile, the size of the image was &lt;strong&gt;780 MB!&lt;/strong&gt;&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>
