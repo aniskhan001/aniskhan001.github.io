@@ -13,123 +13,120 @@ googleAnalytics: G-HKTS2WR0QV
 disqusShortname: aniskhan001
 
 minify:
-    disableXML: true
-    minifyOutput: true
+  disableXML: true
+  minifyOutput: true
 
 params:
-    env: production # to enable google analytics, opengraph, twitter-cards and schema.
+  env: production # to enable google analytics, opengraph, twitter-cards and schema.
+  title: Anis Khan
+  description: "Enjoying life"
+  keywords: [Blog, Tech, Life, Anis Khan]
+  author: Anis Khan
+  images: ["<link or path of image for opengraph, twitter-cards>"]
+  DateFormat: "January 2, 2006"
+  defaultTheme: auto # dark, light
+  disableThemeToggle: false
+  ShowReadingTime: true
+  ShowShareButtons: true
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: true
+  disableSpecial1stPost: false
+  disableScrollToTop: false
+  comments: true
+  hidemeta: false
+  hideSummary: false
+  showtoc: false
+  tocopen: false
+
+  assets:
+    # disableHLJS: true # to disable highlight.js
+    # disableFingerprinting: true
+    favicon: "/icon/favicon.ico"
+    favicon16x16: "/icon/favicon16x16.png"
+    favicon32x32: "/icon/favicon32x32.png"
+    apple_touch_icon: "/icon/apple_touch_icon.png"
+    safari_pinned_tab: "/icon/apple_touch_icon.png"
+
+  # label:
+    # text: "💥 Home"
+    # icon: /icon/favicon.ico
+    # iconHeight: 35
+
+  # profile-mode
+  profileMode:
+    enabled: true # needs to be explicitly set
     title: Anis Khan
-    description: "Enjoying life"
-    keywords: [Blog, Tech, Life, Anis Khan]
-    author: Anis Khan
-    images: ["<link or path of image for opengraph, twitter-cards>"]
-    DateFormat: "January 2, 2006"
-    defaultTheme: auto # dark, light
-    disableThemeToggle: false
-    ShowReadingTime: true
-    ShowShareButtons: true
-    ShowPostNavLinks: true
-    ShowBreadCrumbs: true
-    ShowCodeCopyButtons: true
-    disableSpecial1stPost: false
-    disableScrollToTop: false
-    comments: true
-    hidemeta: false
-    hideSummary: false
-    showtoc: false
-    tocopen: false
+    subtitle: I write in a text editor
+    imageUrl: /img/profile.jpg
+    imageWidth: 220
+    imageHeight: 220
+    imageTitle: Anis Khan
+    buttons:
+      - name: 🌴 Life Blogs
+        url: life
+      - name: 🧑‍💻 Tech Blogs
+        url: tech
 
-    assets:
-        # disableHLJS: true # to disable highlight.js
-        # disableFingerprinting: true
-        favicon: "/icon/favicon.ico"
-        favicon16x16: "/icon/favicon16x16.png"
-        favicon32x32: "/icon/favicon32x32.png"
-        apple_touch_icon: "/icon/apple_touch_icon.png"
-        safari_pinned_tab: "/icon/apple_touch_icon.png"
+  socialIcons:
+    - name: github
+      url: "https://github.com/aniskhan001"
+    - name: youtube
+      url: "https://www.youtube.com/c/EnjoyYourLifeNow"
+    - name: linkedin
+      url: "https://linkedin.com/in/aniskhan001"
+    - name: stackoverflow
+      url: "https://stackoverflow.com/users/1712600/aniskhan001"
+    - name: steam
+      url: "https://steamcommunity.com/id/aniskhan001"
+    - name: resume
+      url: "/resume-anis-khan.pdf"
 
-    label:
-        text: "💥 Home"
-        # icon: /icon/favicon.ico
-        # iconHeight: 35
+  # analytics:
+  #     google:
+  #         SiteVerificationTag: "XYZabc"
+  #     bing:
+  #         SiteVerificationTag: "XYZabc"
+  #     yandex:
+  #         SiteVerificationTag: "XYZabc"
 
-    # profile-mode
-    profileMode:
-        enabled: true # needs to be explicitly set
-        title: Anis Khan
-        subtitle: I write in a text editor
-        imageUrl: /img/profile.jpg
-        imageWidth: 120
-        imageHeight: 120
-        imageTitle: Anis Khan
-        buttons:
-            - name: 🌴 Life Blogs
-              url: life
-            - name: 🧑‍💻 Tech Blogs
-              url: tech
+  cover:
+    hidden: true # hide everywhere but not in structured data
+    hiddenInList: true # hide on list pages and home
+    hiddenInSingle: true # hide on single page
 
-    socialIcons:
-        - name: github
-          url: "https://github.com/aniskhan001"
-        - name: youtube
-          url: "https://www.youtube.com/c/EnjoyYourLifeNow"
-        - name: linkedin
-          url: "https://linkedin.com/in/aniskhan001"
-        - name: stackoverflow
-          url: "https://stackoverflow.com/users/1712600/aniskhan001"
-        - name: steam
-          url: "https://steamcommunity.com/id/aniskhan001"
-        - name: resume
-          url: "/resume-anis-khan.pdf"
+  # for search
+  # https://fusejs.io/api/options.html
+  fuseOpts:
+    isCaseSensitive: false
+    shouldSort: true
+    location: 0
+    distance: 1000
+    threshold: 0.4
+    minMatchCharLength: 0
+    keys: ["title", "permalink", "summary", "content"]
 
-    # analytics:
-    #     google:
-    #         SiteVerificationTag: "XYZabc"
-    #     bing:
-    #         SiteVerificationTag: "XYZabc"
-    #     yandex:
-    #         SiteVerificationTag: "XYZabc"
-
-    cover:
-        hidden: true # hide everywhere but not in structured data
-        hiddenInList: true # hide on list pages and home
-        hiddenInSingle: true # hide on single page
-
-    # editPost:
-    #     URL: "https://github.com/aniskhan001.github.io/content"
-    #     Text: "Suggest Changes" # edit text
-    #     appendFilePath: true # to append file path to Edit link
-
-    # for search
-    # https://fusejs.io/api/options.html
-    fuseOpts:
-        isCaseSensitive: false
-        shouldSort: true
-        location: 0
-        distance: 1000
-        threshold: 0.4
-        minMatchCharLength: 0
-        keys: ["title", "permalink", "summary", "content"]
 menu:
-    main:
-        - identifier: tags
-          name: tags 🏷
-          # pre: <i class='fa fa-heart'></i>
-          url: /tags/
-          weight: 10
-        - identifier: search
-          name: search 🔍
-          # pre: <i class='fa fa-road'></i>
-          url: /search/
-          weight: 20
+  main:
+    - identifier: tags
+      name: tags 🏷
+      # pre: <i class='fa fa-heart'></i>
+      url: /tags/
+      weight: 10
+    - identifier: search
+      name: search 🔍
+      # pre: <i class='fa fa-road'></i>
+      url: /search/
+      weight: 20
+
 # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
 # pygmentsUseClasses: true
 markup:
-    highlight:
-        style: tomorrow-night-bright
+  highlight:
+    style: tomorrow-night-bright
 
 outputs:
-    home:
-        - HTML
-        - RSS
-        - JSON # is necessary
+  home:
+    - HTML
+    - RSS
+    - JSON # is necessary
