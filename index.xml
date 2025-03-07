@@ -11,8 +11,15 @@
     </image>
     <generator>Hugo -- 0.138.0</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 24 Sep 2022 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 16 Oct 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://aniskhan001.me/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Lookback at my 4 years at trivago</title>
+      <link>https://aniskhan001.me/life/lookback-at-my-4-years-at-trivago/</link>
+      <pubDate>Wed, 16 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>https://aniskhan001.me/life/lookback-at-my-4-years-at-trivago/</guid>
+      <description>Soft skills are often more important than technical skills</description>
+    </item>
     <item>
       <title>DevOps vs Programming 🤔</title>
       <link>https://aniskhan001.me/tech/devops-vs-programming/</link>

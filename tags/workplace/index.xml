@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Workplace on Anis Khan</title>
+    <link>https://aniskhan001.me/tags/workplace/</link>
+    <description>Recent content in Workplace on Anis Khan</description>
+    <image>
+      <title>Anis Khan</title>
+      <url>https://aniskhan001.me/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://aniskhan001.me/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- 0.138.0</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 16 Oct 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://aniskhan001.me/tags/workplace/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Lookback at my 4 years at trivago</title>
+      <link>https://aniskhan001.me/life/lookback-at-my-4-years-at-trivago/</link>
+      <pubDate>Wed, 16 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>https://aniskhan001.me/life/lookback-at-my-4-years-at-trivago/</guid>
+      <description>Soft skills are often more important than technical skills</description>
+    </item>
+  </channel>
+</rss>
