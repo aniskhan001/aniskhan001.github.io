@@ -48,8 +48,8 @@ params:
     apple_touch_icon: "/icon/apple_touch_icon.png"
     safari_pinned_tab: "/icon/apple_touch_icon.png"
 
-  # label:
-    # text: "💥 Home"
+  label:
+    text: "💥 Home"
     # icon: /icon/favicon.ico
     # iconHeight: 35
 
@@ -65,7 +65,7 @@ params:
     buttons:
       - name: 🌴 Life Blogs
         url: life
-      - name: 🧑‍💻 Tech Blogs
+      - name: 💻 Tech Blogs
         url: tech
 
   socialIcons:
