@@ -59,8 +59,8 @@ params:
     title: Anis Khan
     subtitle: I write in a text editor
     imageUrl: /img/profile.jpg
-    imageWidth: 220
-    imageHeight: 220
+    imageWidth: 300
+    imageHeight: 300
     imageTitle: Anis Khan
     buttons:
       - name: 🌴 Life Blogs
