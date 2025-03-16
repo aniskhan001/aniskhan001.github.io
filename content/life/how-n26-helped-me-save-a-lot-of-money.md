@@ -1,6 +1,6 @@
 ---
 title: "How N26 Helped Me Save a lot of Money"
-date: 2025-03-14
+date: 2025-03-16
 tags: ["personal-finance", "money-management", "digital-banking"]
 # showToc: true
 TocOpen: false
@@ -17,17 +17,19 @@ ShowBreadCrumbs: true
 ShowPostNavLinks: true
 ---
 
-For many years, I was earning a good amount of money, sufficient enough to
-live well. However, at the end of each month, I always struggled to figure out
-where my money went. I did not think about saving at all until 2018, just before
-my marriage. When I decided to get married, I did not have enough savings to
-cover the expenses. So I had to borrow money from my friends and family. That
-was the time I realized the importance of saving money. For all the loans I
-took, I had to struggle and it took me more than 2 years to pay back all the
-loans. For the first 2 years of my marriage, I had to live a very frugal life.
-That was a hard but important life lesson for me.
+## Introduction
 
-## How did I start with N26
+For many years, I was earning sufficient amount of money to live well.
+However, at the end of each month, I always struggled to figure out where my
+money went. I hadn’t thought about saving at all until 2018, just before my
+marriage. When I decided to get married, I did not have enough savings to cover
+the expenses. So I had to borrow a large chunk of money from my friends and
+family. That was the time I realized the importance of saving money. For all the
+loans I took, I had to struggle and it took me more than 2 years to pay back all
+the loans. During that time, I had to live a very frugal life. That was a hard
+but important life lesson for me.
+
+## How I Started with N26
 
 I learned the concept of [Personal
 Finance](https://en.wikipedia.org/wiki/Personal_finance) rather recently, just a
@@ -42,9 +44,8 @@ Berlin. He recommended it because it's modern compared to other offerings here.
 I opened up an account with them to try out. But I did not use it regularly for
 the first year. I took a look at the different features it provides and at first
 it did not understand all the concepts at the beginning, e.g: _N26 Spaces_. This
-bank is very different compared to what I was using in my home country. So
-naturally it took me some time to understand the core concepts of its main
-features.
+bank was pretty different from my old bank back home, so it took a while to get
+the hang of things.
 
 {{< figure
     src="/img/life/n26-cover.jpg"
@@ -65,11 +66,11 @@ personal strategy to save more and improve my personal finance.
 - [💸 Invest Regularly - Become Wealthy](#-invest-regularly---become-wealthy)
 - [💳 Virtual Cards to Separate Payments](#-virtual-cards-to-separate-payments)
 - [🚧 Guard Rails on Activities](#-guard-rails-on-activities)
-- [💶 Activate IBAN to Pay Bills Automatically](#-activate-iban-to-pay-bills-automatically)
+- [💶 Activate IBAN - Pay Bills Automatically](#-activate-iban---pay-bills-automatically)
 - [🎯 Space Goals - Achieve Peace of Mind](#-space-goals---achieve-peace-of-mind)
 - [🫧 Tidy Up Main Space and Save Pennies](#-tidy-up-main-space-and-save-pennies)
 - [🦺 Emergency Fund - Prepare for the Worst](#-emergency-fund---prepare-for-the-worst)
-- [💁 Help the Less Fortunate People](#-help-the-less-fortunate-people)
+- [💁 Help the Less Fortunate](#-help-the-less-fortunate)
 
 ---
 
@@ -84,8 +85,8 @@ eating out, shopping, subscriptions, etc. and many ad-hoc expenses also come up
 spontaneously.
 
 {{< figure
-    src="/img/life/n26-1.png"
-    caption="Spaces in N26 (web view)"
+    src="/img/life/n26-spaces.png"
+    caption="Spaces in N26"
     align=center
 >}}
 
@@ -111,13 +112,13 @@ up an automation so that upon receiving a certain amount, it is automatically
 sorted into different spaces based on my monthly spending needs.
 
 {{< figure
-    src="/img/life/n26-2.jpg"
-    caption="Auto Income Sorting in N26 (web view) - replace this image with updated values"
+    src="/img/life/n26-income-sorter.jpg"
+    caption="Auto Income Sorting Example in N26"
     align=center
 >}}
 
-For simplicity, let's imagine I transfer **4000 Euros** at the beginning of each
-month to my N26 account. This amount is then allocated as follows:
+For a hypothetical case, let's imagine I transfer **4000 Euros** at the
+beginning of each month to my N26 account. This amount is then allocated as follows:
 
 - **500 Euros** to the '_Groceries & Food_' Space
 - **300 Euros** to the '_Shopping_' Space
@@ -132,13 +133,16 @@ The actual amount can vary based on one's need and life priorities.
 
 ## 💸 Invest Regularly - Become Wealthy
 
-As I mentioned earlier, I have a space for investments. Many financial advisors
-recommend saving up or investing around 20-30% of your monthly income.
-Currently, I am able to save up to 30% of my monthly income in the investment
-space. I typically invest in stocks and ETFs. Regular investment is a healthy
-habit for growing your wealth over time. It can protect you from inflation and
-increase your wealth through the power of compounding. The compound effect can
-significantly enhance your financial growth in the long term.
+You don't want to keep your money idle in a bank account for too long. \
+The last thing you want is to watch your hard-earned money lose value due to inflation.
+
+Like I mentioned earlier, I set up a dedicated space for investments. Many
+financial advisors recommend saving up or investing around 20-30% of your
+monthly income. Currently, I am able to save up to 30% of my monthly income in
+the investment space. I usually put money into stocks and ETFs. Investing
+regularly has been a great way to grow my savings. It can protect you from
+inflation and increase your wealth through the power of compounding. The
+compound effect can significantly enhance your financial growth in the long term.
 
 By separating my investment amount from other expenses at the beginning of the
 month, I ensure that this money is reserved solely for investments. This
@@ -159,8 +163,8 @@ linked to groceries and dining out, another for general shopping, and another
 for trips and hotel bookings.
 
 {{< figure
-    src="/img/life/n26-3.png"
-    caption="Cards in N26 (App view)"
+    src="/img/life/n26-virtual-cards.png"
+    caption="Cards & Virtual Cards in N26"
     align=center
 >}}
 
@@ -189,18 +193,17 @@ necessary adjustments. This feature is particularly useful for managing
 discretionary spending and ensuring that I stay within my financial goals.
 
 {{< figure
-    src="/img/life/n26-6.jpg"
-    caption="Card Limits Example in N26 (App view)"
+    src="/img/life/n26-card-limits.jpg"
+    caption="Daily & Monthly Limits Example in N26"
     align=center
 >}}
 
-By having these guardrails in place, I can maintain better control over my
-finances and avoid impulsive purchases. It also provides a sense of security,
-knowing that I have set boundaries to protect my financial well-being. This
-proactive approach to managing expenses helps me stay disciplined and focused on
-my long-term financial objectives.
+These little rules help me keep my spending in check and avoid any impulsive
+buys. It also provides a sense of security, knowing that I have set boundaries
+to protect my financial well-being. This proactive approach to managing expenses
+helps me stay disciplined and focused on my long-term financial objectives.
 
-## 💶 Activate IBAN to Pay Bills Automatically
+## 💶 Activate IBAN - Pay Bills Automatically
 
 In Germany and other European countries, many services require an
 [IBAN](https://en.wikipedia.org/wiki/International_Bank_Account_Number) to send
@@ -218,8 +221,8 @@ fees. It's a huge relief to have this feature, and it saves me a lot of time and
 effort.
 
 {{< figure
-    src="/img/life/n26-7.jpg"
-    caption="Recurring Transfer in N26 (App view)"
+    src="/img/life/n26-recurring-transfer.jpg"
+    caption="Recurring Transfer in N26"
     align=center
 >}}
 
@@ -239,8 +242,8 @@ space. The app will then display a progress bar indicating how much I have saved
 so far and how much more is needed to reach my target.
 
 {{< figure
-    src="/img/life/n26-4.png"
-    caption="Goals in N26"
+    src="/img/life/n26-space-goals.png"
+    caption="Space Goals in N26"
     align=center
 >}}
 
@@ -257,27 +260,29 @@ achieve short-term goals without disrupting my financial routine.
 N26 has a feature called Round-Ups, where it rounds up the amount to the nearest
 Euro and saves the rest in a space. For example, if I spend 2.75 Euros on a
 coffee, it will deduct 3 Euros from the main space to keep the main space tidy
-and save 0.25 Euros in a space. This way, I am saving pennies to a difference
-space without (almost) even noticing it. Also, seeing the main space without any
-decimals at the end just feels nice! 😄
+and save 0.25 Euros in a space. In this process, I am saving pennies to a
+different space without even noticing it. Also, seeing the main space without
+any decimals at the end just feels nice! 😄
 
 {{< figure
-    src="/img/life/n26-5.png"
-    caption="Round-Ups in N26 (web view)"
+    src="/img/life/n26-round-ups.png"
+    caption="Round-Ups in N26"
     align=center
 >}}
 
 I save this round-up amount in my 'Trips' space. Traveling is one of my hobbies,
 and my wife and I love to travel. So for us, it's important to have enough money
 readily available for trips. Although I send a fixed amount to the 'Trips' space
-each month, the round-up feature helps me save a little extra. Every year, we
-can plan at least 2 long trips with the money saved in this space.
+each month using income sorter feature, the round-up feature helps me save a
+little extra. Every year, we can plan at least 2 long trips with the money saved
+in this space. When it's time for a trip, we don't have to worry about managing
+the budget for it, as we are already saving regularly.
 
 ## 🦺 Emergency Fund - Prepare for the Worst
 
 Disaster can strike at any time in life. Take the pandemic, for example. One can
-lose their job or suddenly face a significant medical bill. Having an emergency
-fund is crucial to cover your expenses during such unforeseen events. Many
+lose their job or suddenly face a significant medical bill. An emergency fund
+is a lifesaver, it’s there to handle those unexpected life events. Many
 financial advisors recommend having an emergency fund that can cover your
 expenses for at least 3-6 months. This fund acts as a financial safety net,
 ensuring you can maintain your standard of living without resorting to debt or
@@ -287,8 +292,8 @@ emergency fund and consistently contribute to it, ensuring you are always
 prepared for the worst.
 
 {{< figure
-    src="/img/life/n26-8.png"
-    caption="Emergency Fund in N26 (Web view)"
+    src="/img/life/n26-emergency-fund.png"
+    caption="Emergency Fund example in N26"
     align=center
 >}}
 
@@ -299,7 +304,7 @@ important to have some patience and discipline in the beginning. And trust that
 you can reach this goal over time. It's a relieving feeling to know that you are
 prepared for any unexpected events that may come your way.
 
-## 💁 Help the Less Fortunate People
+## 💁 Help the Less Fortunate
 
 The definition of being rich varies from person to person. For me, having an
 income that exceeds my needs/expenses makes me feel rich. For example, if I need
@@ -319,11 +324,18 @@ months.
 ## 💭 Final Thoughts
 
 I have been using N26 for the last 3 years, and it has significantly improved my
-ability to save money. While some of the features
-mentioned above are only available with a subscription, many are accessible with
-a free account as well. Personally, I find the minimal monthly fee for the N26
-Smart account to be well worth it for the additional features that have greatly
-enhanced my financial management. Getting the [N26
+ability to save money. To get correct numbers for each my spaces took some time.
+I had to observe my spending habits for a first couple of months to understand
+where my money was going. Once I had a good picture of my expenses, I was able
+to allocate the right amount to each space. However, it changes from time to
+time based on my needs and priorities. It's okay to readjust the numbers based
+on your current situation. I try not to be too strict with myself, but I also
+try to maintain a balance between spending and saving.
+
+While some of the features mentioned above are only available with a
+subscription, many are accessible with a free account as well. Personally, I
+find the minimal monthly fee for the N26 Smart account to be well worth it for
+the additional features that have greatly enhanced my financial management. Getting the [N26
 Smart](https://n26.com/en-de/plans) plan was one of the best financial decisions
 I have ever made. Please note that I am neither sponsored nor influenced by N26
 or any other business to write this blogpost. I am simply sharing my personal
